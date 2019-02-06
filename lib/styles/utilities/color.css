@@ -1,0 +1,4 @@
+.u-color {
+  &-portfolio { color: var(--color-portfolio) !important; }
+  &-contact { color: var(--color-contact) !important; }
+}

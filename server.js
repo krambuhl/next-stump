@@ -11,8 +11,8 @@ app
   .then(() => {
     const server = express()
 
-    server.get('/project/:slug', (req, res) => {
-      app.render(req, res, '/project', { slug: req.params.slug })
+    server.get('/portfolio/:slug', (req, res) => {
+      app.render(req, res, '/portfolio', { slug: req.params.slug })
     })
 
     server.get('*', (req, res) => {

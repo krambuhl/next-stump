@@ -19,6 +19,10 @@ class AppWrapper extends App {
 
     return (
       <Container>
+        <Head>
+          <title>Stumptown Bear</title>
+        </Head>
+
         <Component {...pageProps} />
       </Container>
     )

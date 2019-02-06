@@ -1,6 +1,7 @@
 :root {
   --padding: 1rem;
   --padding-responsive: var(--padding);
+  --section-border: 0.25em;
 }
 
 @media (--medium-large) {

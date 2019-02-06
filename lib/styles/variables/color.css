@@ -1,8 +1,18 @@
 :root {
-  /* Grayscale */
+  /* Neutral */
   --color-black: #000;
   --color-white: #fff;
+  --color-tan: #dcd5c2;
+  --color-offtan: #d3cab475;
+  --color-beige: #b0a591;
 
-  /* Colors */
-  --color-blue: #009bdf;
+  /* Bright */
+  --color-blue: #0d38ca;
+  --color-teal: #0097ee;
+  --color-orange: #f6371d;
+  --color-yellow: #f7ca39;
+
+  /* Uses */
+  --color-portfolio: var(--color-teal);
+  --color-contact: var(--color-orange);
 }

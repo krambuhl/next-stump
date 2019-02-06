@@ -1,14 +1,14 @@
 .Rhythm {
   &,
-  &--default { & > * + * { margin-top: 1em; } }
-  &--small { & > * + * { margin-top: 0.5em; } }
-  &--large { & > * + * { margin-top: 2em; } }
-  &--ex-large { & > * + * { margin-top: 4em; } }
+  &--default { & > * + * { margin-top: 1rem; } }
+  &--small { & > * + * { margin-top: 0.5rem; } }
+  &--large { & > * + * { margin-top: 2rem; } }
+  &--ex-large { & > * + * { margin-top: 4rem; } }
 
   &--deep {
     &,
-    &-default { & * + * { margin-top: 1em; } }
-    &-small { & * + * { margin-top: 0.5em; } }
-    &-large { & * + * { margin-top: 2em; } }
+    &-default { & * + * { margin-top: 1rem; } }
+    &-small { & * + * { margin-top: 0.5rem; } }
+    &-large { & * + * { margin-top: 2rem; } }
   }
 }

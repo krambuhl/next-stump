@@ -2,25 +2,17 @@ html, body {
   font-family: 'museo-sans-rounded', 'Arial Rounded MT Bold', Helvetica;
   font-weight: 500;
   font-size: 100%;
+
+  background-color: var(--color-tan);
 }
 
 body {
-  font-size: 150%;
-  line-height: 1.4em
+  font-size: responsive 20px 32px;
+  font-range: 320px 1440px;
+  line-height: 1.5em;
 }
-
-:--heading {
-  font-weight: 900;
-  line-height: 1.4em;
-}
-
-h1 { font-size: 3em; }
-h2 { font-size: 2.6em; }
-h3 { font-size: 2.1em; }
-h4 { font-size: 1.7em; }
-h5 { font-size: 1.4em; }
-h6 { font-size: 1.2em; }
 
 a {
   text-decoration: underline;
+  color: var(--color-black);
 }

@@ -1,17 +1,23 @@
 .PageLayout {
-  min-height: 100vh;
+  &__container {
+    min-height: 100vh;
+  }
 
   &--error {
     background-image: url(/static/scratching-bear.gif);
     background-size: cover;
+
+    & > .PageLayout__container {
+      background-color: #0008;
+    }
   }
 
   &--dark {
     background-color: var(--color-black);
-    color: var(--color-white);
+    color: var(--color-tan);
 
     a {
-      color: var(--color-white);
+      color: var(--color-tan);
     }
   }
 }

@@ -1,7 +1,8 @@
 module.exports = {
   plugins: [
-    require('postcss-easy-import')(),
-    require('postcss-nested')(),
+    require('postcss-easy-import'),
+    require('postcss-nested'),
+    require('postcss-responsive-type'),
     require('postcss-preset-env')({
       stage: 1,
       features: {

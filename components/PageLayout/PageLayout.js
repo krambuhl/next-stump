@@ -15,10 +15,12 @@ const PageLayout = ({
 
   return (
     <div className={classList}>
-      <GlobalHeader />
+      <div className="PageLayout__container">
+        <GlobalHeader dark={dark} />
 
-      <div id='content'>
-        {children}
+        <div id='content'>
+          {children}
+        </div>
       </div>
     </div>
   )

@@ -2,9 +2,10 @@ import React from 'react'
 import Head from 'next/head'
 import {
   Biography,
+  Contact,
   PageLayout,
   PageWrapper,
-  ProjectList
+  Portfolio
 } from 'Components'
 
 class Post extends React.Component {
@@ -14,10 +15,10 @@ class Post extends React.Component {
         <Head>
           <title>Stumptown Bear</title>
         </Head>
+
         <Biography />
-        <div id="portfolio">
-          <ProjectList projectList={this.props.portfolio} />
-        </div>
+        <Portfolio portfolioList={this.props.portfolioList} />
+        <Contact />
       </PageLayout>
     )
   }
