@@ -12,7 +12,7 @@ const Biography = () => (
       </p>
 
       <p>
-        We should make something together, take a look at my <a href='#portfolio' className='u-color-portfolio'>portfolio</a>, or just <a href='#say-hello' className='u-color-contact'>say hello</a>.
+        We should make something together! Take a look at my <a href='#portfolio' className='u-color-portfolio'>portfolio</a>, or just <a href='#hello' className='u-color-contact'>say hello</a>.
       </p>
 
       <p>
@@ -21,7 +21,7 @@ const Biography = () => (
 
       <br />
 
-      <Heading level='h2'>I like</Heading>
+      <Heading level='h2'>I enjoy</Heading>
 
       <ul>
         <li>Minimalism</li>
@@ -32,17 +32,18 @@ const Biography = () => (
         <li>Functional Programming</li>
         <li>Data Visualization</li>
         <li>Mathmatics</li>
-        <li>Music</li>
+        <li>Loud Music</li>
         <li>Drumming</li>
         <li>Audio Engineering</li>
         <li>Frank Zappa</li>
-        <li>Franz Kafka</li>
         <li>Kurt Vonnegut</li>
+        <li>Franz Kafka</li>
         <li>Magical Realism</li>
-        <li>Couch Surfing</li>
+        <li>Mountain Hiking</li>
+        <li>Swimming</li>
         <li>Tent Camping</li>
-        <li>Gardening</li>
         <li>Board Games</li>
+        <li>Gardening</li>
         <li>Almonds</li>
       </ul>
     </Wrapper>

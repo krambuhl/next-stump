@@ -22,7 +22,7 @@ const GlobalHeader = ({
         <div className='GlobalHeader__nav'>
           <ul className='GlobalHeader__nav-list'>
             <li><Link href='/#portfolio'><a className='GlobalHeader__nav-link GlobalHeader__nav-link--portfolio'>Portfolio</a></Link></li>
-            <li><Link href='/#say-hello'><a className='GlobalHeader__nav-link GlobalHeader__nav-link--contact'>Say Hello</a></Link></li>
+            <li><Link href='/#hello'><a className='GlobalHeader__nav-link GlobalHeader__nav-link--contact'>Say Hello</a></Link></li>
           </ul>
         </div>
       </Wrapper>
