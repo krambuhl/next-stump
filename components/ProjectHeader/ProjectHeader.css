@@ -1,0 +1,7 @@
+.ProjectHeader__heading {
+  color: var(--color-portfolio);
+}
+
+.ProjectHeader__button {
+  margin-top: 2rem;
+}

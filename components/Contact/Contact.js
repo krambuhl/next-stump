@@ -4,7 +4,8 @@ import { Heading, Strata, Wrapper } from 'Tags'
 const Contact = () => (
   <Strata id='hello' className='Contact'>
     <Wrapper>
-      <Heading level='h2'>Say Hello</Heading>
+      <Heading level='h2'>You want to say hello?</Heading>
+      <p>Send me a message and we can get to making.</p>
     </Wrapper>
   </Strata>
 )

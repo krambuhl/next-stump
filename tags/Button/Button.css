@@ -1,0 +1,18 @@
+.Button {
+  border: 2px solid var(--color-portfolio);
+  border-radius: 4em;
+  color: var(--color-portfolio) !important;
+  display: inline-block;
+  font-size: 0.75em;
+  text-decoration: none;
+  padding: 0em 1.5em;
+
+  &:hover {
+    background-color: var(--color-portfolio);
+    color: var(--color-white) !important;
+  }
+
+  @media (--medium) {
+    border-width: 3px;
+  }
+}

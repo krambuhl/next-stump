@@ -3,7 +3,7 @@
   line-height: 1.4em;
 
   &--h1 {
-    font-size: responsive 1.8em 3.6em;
+    font-size: responsive 1.8em 3.2em;
     font-range: 12em 40em;
     line-height: 1.2em;
   }
@@ -13,7 +13,11 @@
     font-range: 12em 40em;
   }
 
-  &--h3 { font-size: 2.1em; }
+  &--h3 {
+    font-size: 1.6em;
+    line-height: 1.2em;
+  }
+
   &--h4 { font-size: 1.7em; }
   &--h5 { font-size: 1.4em; }
   &--h6 { font-size: 1.2em; }

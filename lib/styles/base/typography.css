@@ -12,6 +12,11 @@ body {
   line-height: 1.5em;
 }
 
+p {
+  max-width: 720px;
+  margin: auto;
+}
+
 a {
   text-decoration: underline;
   color: var(--color-black);

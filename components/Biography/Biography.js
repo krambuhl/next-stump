@@ -8,7 +8,7 @@ const Biography = () => (
       <Heading tagName='h2' level='h1'>Well, Hello There!</Heading>
 
       <p>
-        I am Evan Krambuhl and I make artifacts on the internet.
+        I am Evan Krambuhl and I code websites, play music, and make art.
       </p>
 
       <p>

@@ -13,7 +13,8 @@
           "Components": "./components",
           "Tags": "./tags",
           "Lib": "./lib",
-          "Pages": "./pages"
+          "Pages": "./pages",
+          "Static": "./static"
         }
       }
     ]

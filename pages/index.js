@@ -4,11 +4,15 @@ import {
   Biography,
   Contact,
   PageLayout,
-  PageWrapper,
   Portfolio
 } from 'Components'
 
 class Post extends React.Component {
+  static async getInitialProps ({ query }) {
+    const { thumbnails: portfolioList } = require('Static/portfolio/thumbnails')
+    return { query, portfolioList }
+  }
+
   render () {
     return (
       <PageLayout>
@@ -24,4 +28,4 @@ class Post extends React.Component {
   }
 }
 
-export default PageWrapper(Post)
+export default Post

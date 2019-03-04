@@ -1,0 +1,77 @@
+.ProjectList {
+  display: flex;
+  flex-flow: row wrap;
+
+  &__grid {
+    position: relative;
+    width: 100%;
+    border-radius: 6px;
+
+    @media (--medium-small) {
+      width: 50%;
+    }
+
+    @media (--medium-large) {
+      width: 33.33%;
+    }
+
+    &:hover {
+      .ProjectList__header,
+      &::after {
+        opacity: 1;
+      }
+    }
+
+    &::after {
+      content: '\0020';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #0004;
+      z-index: 0;
+      border-radius: 8px;
+      opacity: 0;
+      transition: opacity 0.5s ease;
+    }
+  }
+
+  &__item {
+    width: 100%;
+  }
+
+  &__header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 1.5em 1.5em 6em;
+    z-index: 2;
+    border-radius: 8px;
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, #000f 20%, #0000);
+    color: white;
+    font-size: 1rem;
+    line-height: 1em;
+    text-align: left;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+
+  &__title {
+    margin-bottom: 0.25em;
+  }
+
+  &__image {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    border-radius: 4px;
+    margin: 0.5rem 0.5rem;
+    box-shadow: #0002 0 1px 5px;
+
+    & > *:last-child {
+      filter: blur(20px);
+    }
+  }
+}

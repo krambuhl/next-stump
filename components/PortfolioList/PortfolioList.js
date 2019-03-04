@@ -1,17 +1,46 @@
 import React from 'react'
 import Link from 'next/link'
+import Masonry from 'react-masonry-component';
+import { SimpleImg } from 'react-simple-img';
+import { Heading } from 'Tags'
 
 const PortfolioList = ({ portfolioList }) => {
   return (
-    <div className='Rhythm'>
+    <Masonry
+      className='ProjectList'
+      options={{
+        transitionDuration: 0
+      }}
+    >
       {
-        portfolioList.map(project => (
-          <Link key={project.slug} href={`/portfolio/${project.slug}`}><a>
-            <h2>{project.title}</h2>
-          </a></Link>
-        ))
+        portfolioList.map(({ slug, title, year, company, thumbnail }) => {
+          return (
+            <div key={slug} className="ProjectList__grid">
+              <div className='ProjectList__item'>
+                <Link href={`/portfolio/${slug}`}><a>
+                  <div className='ProjectList__header'>
+                    <Heading level='h3' className='ProjectList__title'>{title}</Heading>
+                    <div>{year} / {company}</div>
+                  </div>
+
+                  <SimpleImg
+                    className='ProjectList__image'
+                    src={thumbnail.src}
+                    srcSet={thumbnail.srcSet}
+                    placeholder={thumbnail.placeholder}
+                    applyAspectRatio
+                    height={thumbnail.height}
+                    width={thumbnail.width}
+                    alt={title}
+                    animationDuration={1}
+                  />
+                </a></Link>
+              </div>
+            </div>
+          )
+        })
       }
-    </div>
+    </Masonry>
   )
 }
 

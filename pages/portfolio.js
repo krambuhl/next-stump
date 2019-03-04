@@ -3,18 +3,21 @@ import Head from 'next/head'
 import {
   ErrorPage,
   PageLayout,
-  PageWrapper
+  ProjectGallery,
+  ProjectHeader
 } from 'Components'
-import { Heading, Strata, Wrapper } from 'Tags'
+import { Strata, Wrapper } from 'Tags'
+
+const context = require.context('../static/portfolio', false, /\-details\.js/)
 
 class Post extends React.Component {
   static async getInitialProps ({ query }) {
-    return { query }
+    const activeProject = context(`./${query.slug}-details.js`)
+    return { activeProject }
   }
 
   render () {
-    const { slug } = this.props.query
-    const activeProject = this.props.portfolioList.find(res => res.slug === slug)
+    const { activeProject } = this.props
 
     if (!activeProject) {
       return <ErrorPage statusCode={404} />
@@ -27,18 +30,9 @@ class Post extends React.Component {
         </Head>
 
         <Strata>
-          <Wrapper className='Rhythm--large'>
-            <Heading level='h1'>{activeProject.title}</Heading>
-
-            {activeProject.projectImages.map(img => (
-              <p key={img.alt} >
-                <img
-                  src={img.src}
-                  alt={img.alt}
-                  style={{ maxWidth: '100%' }}
-                />
-              </p>
-            ))}
+          <Wrapper>
+            <ProjectHeader project={activeProject} />
+            <ProjectGallery project={activeProject} />
           </Wrapper>
         </Strata>
       </PageLayout>
@@ -46,4 +40,4 @@ class Post extends React.Component {
   }
 }
 
-export default PageWrapper(Post)
+export default Post
