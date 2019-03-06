@@ -8,7 +8,7 @@ import {
 } from 'Components'
 import { Strata, Wrapper } from 'Tags'
 
-const context = require.context('../static/portfolio', false, /\-details\.js/)
+const context = require.context('../lib/portfolio-dist', false, /\-details\.js/)
 
 class Post extends React.Component {
   static async getInitialProps ({ query }) {

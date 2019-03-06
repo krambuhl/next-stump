@@ -9,7 +9,7 @@ import {
 
 class Post extends React.Component {
   static async getInitialProps ({ query }) {
-    const { thumbnails: portfolioList } = require('Static/portfolio/thumbnails')
+    const { thumbnails: portfolioList } = require('../lib/portfolio-dist/thumbnails')
     return { query, portfolioList }
   }
 
