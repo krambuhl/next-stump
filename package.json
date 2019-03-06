@@ -4,11 +4,11 @@
   "description": "",
   "main": "next.config.js",
   "scripts": {
-    "dev": "node server.js",
-    "dev:graphql": "forever -w ./graphql-server.js",
+    "dev": "next dev",
     "build": "next build",
-    "build:portfolio": "webpack --config ./webpack-portfolio.config.js",
-    "start": "NODE_ENV=production node server.js"
+    "build:portfolio-data": "webpack --config ./webpack-portfolio.config.js",
+    "deploy": "npm run build:portfolio-data && now",
+    "start": "NODE_ENV=production next"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,8 @@
   "devDependencies": {
     "@zeit/next-css": "^1.0.1",
     "babel-plugin-module-resolver": "^3.1.3",
+    "glob": "^7.1.3",
+    "imagemin-mozjpeg": "^8.0.0",
     "imagemin-optipng": "^6.0.0",
     "imagemin-pngquant": "^7.0.0",
     "imagemin-svgo": "^7.0.0",
@@ -33,20 +35,20 @@
     "postcss-nested": "^4.1.1",
     "postcss-preset-env": "^6.5.0",
     "postcss-responsive-type": "^1.0.0",
+    "progress-bar-webpack-plugin": "^1.12.1",
     "responsive-loader": "^1.2.0",
     "sharp": "^0.21.3",
-    "webpack": "^4.29.6"
+    "webpack-cli": "^3.2.3"
   },
   "dependencies": {
     "classnames": "^2.2.6",
-    "express": "^4.16.4",
-    "next": "^7.0.2",
-    "progress-bar-webpack-plugin": "^1.12.1",
+    "image-webpack-loader": "^4.6.0",
+    "next": "^8.0.3",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-masonry-component": "^6.2.1",
     "react-simple-img": "^2.1.1",
     "reset-css": "^4.0.1",
-    "webpack-cli": "^3.2.3"
+    "webpack": "^4.29.6"
   }
 }

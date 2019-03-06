@@ -5,4 +5,6 @@ const withCSS = require('@zeit/next-css')
 module.exports = withPlugins([
   withCSS,
   optimizedImages
-]);
+], {
+  target: 'serverless'
+});

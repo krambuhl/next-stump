@@ -1,7 +1,7 @@
 .Strata {
   display: flex;
-  padding-top: calc(var(--padding-responsive) * 3);
-  padding-bottom: calc(var(--padding-responsive) * 3);
+  padding-top: calc(var(--padding-responsive) * 4);
+  padding-bottom: calc(var(--padding-responsive) * 5);
   min-height: 100vh;
 
   & > div {

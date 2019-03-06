@@ -15,28 +15,30 @@ const PortfolioList = ({ portfolioList }) => {
       {
         portfolioList.map(({ slug, title, year, company, thumbnail }) => {
           return (
-            <div key={slug} className="ProjectList__grid">
+            <Link
+              key={slug}
+              href={`/portfolio?slug=${slug}`}
+              as={`/portfolio/${slug}`}
+            ><a className="ProjectList__grid">
               <div className='ProjectList__item'>
-                <Link href={`/portfolio/${slug}`}><a>
-                  <div className='ProjectList__header'>
-                    <Heading level='h3' className='ProjectList__title'>{title}</Heading>
-                    <div>{year} / {company}</div>
-                  </div>
+                <div className='ProjectList__header'>
+                  <Heading level='h3' className='ProjectList__title'>{title}</Heading>
+                  <div>{year} / {company}</div>
+                </div>
 
-                  <SimpleImg
-                    className='ProjectList__image'
-                    src={thumbnail.src}
-                    srcSet={thumbnail.srcSet}
-                    placeholder={thumbnail.placeholder}
-                    applyAspectRatio
-                    height={thumbnail.height}
-                    width={thumbnail.width}
-                    alt={title}
-                    animationDuration={1}
-                  />
-                </a></Link>
+                <SimpleImg
+                  className='ProjectList__image'
+                  src={thumbnail.src}
+                  srcSet={thumbnail.srcSet}
+                  placeholder={thumbnail.placeholder}
+                  applyAspectRatio
+                  height={thumbnail.height}
+                  width={thumbnail.width}
+                  alt={title}
+                  animationDuration={1}
+                />
               </div>
-            </div>
+            </a></Link>
           )
         })
       }

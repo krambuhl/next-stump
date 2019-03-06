@@ -42,7 +42,7 @@
     text-align: center;
 
     @media (--small) {
-      margin-left: calc(var(--padding) * -1);
+      margin-left: calc(var(--padding) * -0.55);
     }
 
     &-link {

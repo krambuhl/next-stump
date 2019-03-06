@@ -1,4 +1,8 @@
 .Portfolio {
   border-top: var(--section-border) solid var(--color-offtan);
   align-items: center;
+
+  &__header {
+    margin-bottom: 3em;
+  }
 }

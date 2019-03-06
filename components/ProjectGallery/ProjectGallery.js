@@ -18,7 +18,7 @@ const ProjectGallery = ({ project }) => {
             animationDuration={1}
           />
 
-          <p class="ProjectGallery__label">{alt}</p>
+          <p className="ProjectGallery__label">{alt}</p>
         </div>
       ))}
     </div>

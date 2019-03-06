@@ -3,7 +3,7 @@ import { Button, Heading } from 'Tags'
 
 const ProjectHeader = ({ project }) => {
   return (
-    <div className='Rhythm--default'>
+    <div className='ProjectHeader Rhythm--default'>
       <Heading level='h1'>{project.title}</Heading>
       <p>{project.year} with <a href={project.companyHref} target="_blank">{project.company}</a></p>
       { project.projectHref &&

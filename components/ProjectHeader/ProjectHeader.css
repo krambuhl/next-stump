@@ -1,5 +1,5 @@
-.ProjectHeader__heading {
-  color: var(--color-portfolio);
+.ProjectHeader {
+  margin-bottom: 3em;
 }
 
 .ProjectHeader__button {

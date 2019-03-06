@@ -1,4 +1,10 @@
 {
-  "version": 1,
-  "name": "next-stump"
+  "name": "next-stump",
+  "version": 2,
+  "builds": [
+    { "src": "package.json", "use": "@now/next" }
+  ],
+  "routes": [
+    { "src": "/portfolio/(?<slug>[^/]+)$", "dest": "/portfolio?slug=$slug" }
+  ]
 }
