@@ -8,7 +8,7 @@ const ProjectGallery = ({ project }) => {
       {project.projectImages.map(({ alt, image }) => (
         <div key={alt}>
           <SimpleImg
-            className='image'
+            className='PortfolioGallery__image'
             src={image.src}
             srcSet={image.srcSet}
             placeholder={image.placeholder}
@@ -36,7 +36,7 @@ const ProjectGallery = ({ project }) => {
           }
         }
 
-        .image {
+        :global(.PortfolioGallery__image) {
           overflow: hidden;
           border-radius: 4px;
 

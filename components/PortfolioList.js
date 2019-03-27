@@ -23,12 +23,12 @@ const PortfolioList = ({ portfolioList }) => {
             ><a className="grid">
               <div className='item'>
                 <div className='header'>
-                  <Heading level='h3' className='title'>{title}</Heading>
+                  <Heading level='h3' className='PortfolioList__title'>{title}</Heading>
                   <div>{year} / {company}</div>
                 </div>
 
                 <SimpleImg
-                  className='image'
+                  className='PortfolioList__image'
                   src={thumbnail.src}
                   srcSet={thumbnail.srcSet}
                   placeholder={thumbnail.placeholder}
@@ -130,11 +130,11 @@ const PortfolioList = ({ portfolioList }) => {
           transition: opacity 0.5s ease;
         }
 
-        .title {
+        :global(.PortfolioList__title) {
           margin-bottom: 0.25em;
         }
 
-        .image {
+        :global(.PortfolioList__image) {
           position: relative;
           z-index: 1;
           overflow: hidden;
