@@ -21,6 +21,10 @@ const ProjectGallery = ({ project }) => {
           <p className="ProjectGallery__label">{alt}</p>
         </div>
       ))}
+
+      <style jsx>{`
+
+      `}</style>
     </div>
   )
 }

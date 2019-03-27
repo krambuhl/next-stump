@@ -22,6 +22,10 @@ const PageLayout = ({
           {children}
         </div>
       </div>
+
+      <style jsx>{`
+
+      `}</style>
     </div>
   )
 }

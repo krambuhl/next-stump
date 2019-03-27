@@ -1,9 +1,8 @@
 import React from 'react'
-import { WordRotator } from 'Components'
 import { Heading, Strata, Wrapper } from 'Tags'
 
 const Biography = () => (
-  <Strata id='biography' className='Biography'>
+  <Strata id='biography' className='root'>
     <Wrapper className='Rhythm--large'>
       <Heading tagName='h2' level='h1'>Well, Hello There!</Heading>
 
@@ -15,7 +14,7 @@ const Biography = () => (
         We could make something together! Take a look at my <a href='#portfolio' className='u-color-portfolio'>portfolio</a>, or just <a href='#hello' className='u-color-contact'>say hello</a>.
       </p>
 
-      <p className="Biography__head">
+      <p className="head">
         <img src='/static/head-1.jpg' srcSet='/static/head-1.jpg 1x, /static/head-1@2x.jpg 2x' alt='my face' width='100%' style={{ borderRadius: 100000, maxWidth: 480 }} />
       </p>
 
@@ -45,6 +44,23 @@ const Biography = () => (
         <li>Almonds</li>
       </ul>
     </Wrapper>
+
+    <style jsx>{`
+      .root {
+        text-align: center;
+      }
+
+      .head {
+        margin-top: 1.4em;
+        margin-bottom: 1.8em;
+      }
+
+      p {
+        max-width: 16em;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    `}</style>
   </Strata>
 )
 

@@ -11,6 +11,10 @@ const ProjectHeader = ({ project }) => {
           <Button href={project.projectHref} target="_blank">Visit Project</Button>
         </p>
       }
+
+      <style jsx>{`
+
+      `}</style>
     </div>
   )
 }

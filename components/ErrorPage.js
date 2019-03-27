@@ -6,7 +6,7 @@ const ErrorPage = ({
   statusCode
 }) => (
   <PageLayout error dark>
-    <Wrapper className='ErrorPage'>
+    <Wrapper className='root'>
       <div>
         {
           statusCode
@@ -15,6 +15,19 @@ const ErrorPage = ({
         }
       </div>
     </Wrapper>
+    <style jsx>{`
+      .root {
+        display: flex;
+        align-items: center;
+        min-height: 90vh;
+        width: 100%;
+      }
+
+      div {
+        text-align: center;
+        width: 100%;
+      }
+    `}</style>
   </PageLayout>
 )
 

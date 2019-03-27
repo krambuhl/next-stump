@@ -3,5 +3,3 @@
 @import "./variables/**/*.css";
 @import "./base/universal.css";
 @import "./**/*.css";
-@import "../../tags/**/*.css";
-@import "../../components/**/*.css";

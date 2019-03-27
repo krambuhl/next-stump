@@ -12,6 +12,10 @@ const Portfolio = ({ portfolioList }) => (
 
       <PortfolioList portfolioList={portfolioList} />
     </Wrapper>
+
+    <style jsx>{`
+
+    `}</style>
   </Strata>
 )
 

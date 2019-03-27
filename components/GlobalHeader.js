@@ -26,6 +26,10 @@ const GlobalHeader = ({
           </ul>
         </div>
       </Wrapper>
+
+      <style jsx>{`
+
+      `}</style>
     </header>
   )
 }

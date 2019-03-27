@@ -42,6 +42,10 @@ const PortfolioList = ({ portfolioList }) => {
           )
         })
       }
+
+      <style jsx>{`
+
+      `}</style>
     </Masonry>
   )
 }
