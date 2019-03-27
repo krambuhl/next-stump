@@ -1,5 +1,4 @@
 @import "reset-css";
-@import "./variables/breakpoints.css";
 @import "./variables/**/*.css";
 @import "./base/universal.css";
 @import "./**/*.css";

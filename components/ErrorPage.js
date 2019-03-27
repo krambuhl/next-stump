@@ -1,6 +1,5 @@
 import React from 'react'
-import { PageLayout } from 'Components'
-import { Wrapper } from 'Tags'
+import { PageLayout, Wrapper } from 'Components'
 
 const ErrorPage = ({
   statusCode

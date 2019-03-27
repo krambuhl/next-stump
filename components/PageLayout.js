@@ -8,14 +8,13 @@ const PageLayout = ({
   children
 }) => {
   const classList = classnames(
-    'PageLayout',
-    { 'PageLayout--error': error },
-    { 'PageLayout--dark': dark },
+    { 'error': error },
+    { 'dark': dark },
   )
 
   return (
     <div className={classList}>
-      <div className="PageLayout__container">
+      <div className="container">
         <GlobalHeader dark={dark} />
 
         <div id='content'>
@@ -24,7 +23,27 @@ const PageLayout = ({
       </div>
 
       <style jsx>{`
+        .container {
+          min-height: 100vh;
+        }
 
+        .error {
+          background-image: url(/static/scratching-bear.gif);
+          background-size: cover;
+        }
+
+        .error > .container {
+          background-color: #0008;
+        }
+
+        .dark {
+          background-color: var(--color-black);
+          color: var(--color-tan);
+        }
+
+        .dark :global(a) {
+          color: var(--color-tan);
+        }
       `}</style>
     </div>
   )

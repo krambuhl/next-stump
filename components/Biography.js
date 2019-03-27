@@ -1,9 +1,9 @@
 import React from 'react'
-import { Heading, Strata, Wrapper } from 'Tags'
+import { Heading, Strata, Wrapper } from 'Components'
 
 const Biography = () => (
   <Strata id='biography' className='root'>
-    <Wrapper className='Rhythm--large'>
+    <Wrapper className='u-rhythm--lg'>
       <Heading tagName='h2' level='h1'>Well, Hello There!</Heading>
 
       <p>

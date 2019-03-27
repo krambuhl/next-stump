@@ -1,5 +1,6 @@
 import React from 'react'
 import classnames from 'classnames'
+import * as Breakpoints from 'Vars/breakpoints'
 
 export default ({
   tagName,
@@ -28,15 +29,14 @@ export default ({
           font-size: 0.75em;
           text-decoration: none;
           padding: 0em 1.5em;
-        }
 
-        .root:hover {
-          background-color: var(--color-portfolio);
-          color: var(--color-white) !important;
-        }
+          &:hover,
+          &:focus {
+            background-color: var(--color-portfolio);
+            color: var(--color-white) !important;
+          }
 
-        @media (--medium) {
-          .root {
+          @media (${Breakpoints.medium}) {
             border-width: 3px;
           }
         }
