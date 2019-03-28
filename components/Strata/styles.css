@@ -1,12 +1,13 @@
-.Strata {
+@import "../../lib/styles/variables/*.css";
+
+.root {
   display: flex;
   padding-top: calc(var(--padding-responsive) * 4);
   padding-bottom: calc(var(--padding-responsive) * 5);
   min-height: 100vh;
-
-  & > div {
-    width: 100%;
-    text-align: center;
-  }
 }
 
+.container {
+  width: 100%;
+  text-align: center;
+}

@@ -1,13 +1,14 @@
 import React from 'react'
 import { SimpleImg } from 'react-simple-img';
+import styles from './styles.css'
 
 const ProjectGallery = ({ project }) => {
   return (
-    <div className='ProjectGallery'>
+    <div className={styles.root}>
       {project.projectImages.map(({ alt, image }) => (
         <div key={alt}>
           <SimpleImg
-            className='ProjectGallery__image'
+            className={styles.image}
             src={image.src}
             srcSet={image.srcSet}
             placeholder={image.placeholder}
@@ -18,7 +19,7 @@ const ProjectGallery = ({ project }) => {
             animationDuration={1}
           />
 
-          <p className="ProjectGallery__label">{alt}</p>
+          <p className={styles.label}>{alt}</p>
         </div>
       ))}
     </div>

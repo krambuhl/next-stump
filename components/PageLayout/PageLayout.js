@@ -1,6 +1,7 @@
 import React from 'react'
 import classnames from 'classnames'
 import { GlobalHeader } from 'Components'
+import styles from './styles.css'
 
 const PageLayout = ({
   error = false,
@@ -8,14 +9,13 @@ const PageLayout = ({
   children
 }) => {
   const classList = classnames(
-    'PageLayout',
-    { 'PageLayout--error': error },
-    { 'PageLayout--dark': dark },
+    { [styles.error]: error },
+    { [styles.dark]: dark },
   )
 
   return (
     <div className={classList}>
-      <div className="PageLayout__container">
+      <div className={styles.container}>
         <GlobalHeader dark={dark} />
 
         <div id='content'>

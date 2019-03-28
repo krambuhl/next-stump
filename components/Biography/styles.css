@@ -1,14 +1,16 @@
-.Biography {
+@import "../../lib/styles/variables/*.css";
+
+.root {
   text-align: center;
 
-  p {
+  :global(p) {
     max-width: 16em;
     margin-left: auto;
     margin-right: auto;
   }
 }
 
-.Biography__head {
+.head {
   margin-top: 1.4em;
   margin-bottom: 1.8em;
 }

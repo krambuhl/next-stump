@@ -1,0 +1,26 @@
+@import "../../lib/styles/variables/*.css";
+
+.root {
+  font-weight: 900;
+  line-height: 1.4em;
+}
+
+.level__h1 {
+  font-size: responsive 1.8em 3em;
+  font-range: 12em 40em;
+  line-height: 1.1em;
+}
+
+.level__h2 {
+  font-size: responsive 1.6em 2.8em;
+  font-range: 12em 40em;
+}
+
+.level__h3 {
+  font-size: 1.6em;
+  line-height: 1.2em;
+}
+
+.level__h4 { font-size: 1.7em; }
+.level__h5 { font-size: 1.4em; }
+.level__h6 { font-size: 1.2em; }

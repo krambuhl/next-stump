@@ -2,14 +2,22 @@ html, body {
   font-family: 'museo-sans-rounded', 'Arial Rounded MT Bold', Helvetica;
   font-weight: 500;
   font-size: 100%;
-
-  background-color: var(--color-tan);
 }
 
 body {
   font-size: responsive 20px 32px;
   font-range: 320px 1440px;
   line-height: 1.5em;
+  background-color: var(--color-tan);
+}
+
+:global body.dark {
+  background-color: var(--color-black);
+  color: var(--color-tan);
+
+  a {
+    color: var(--color-tan);
+  }
 }
 
 p {

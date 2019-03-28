@@ -1,4 +1,6 @@
-.Button {
+@import "../../lib/styles/variables/*.css";
+
+.root {
   border: 2px solid var(--color-portfolio);
   border-radius: 4em;
   color: var(--color-portfolio) !important;
@@ -7,7 +9,8 @@
   text-decoration: none;
   padding: 0em 1.5em;
 
-  &:hover {
+  &:hover,
+  &:focus {
     background-color: var(--color-portfolio);
     color: var(--color-white) !important;
   }

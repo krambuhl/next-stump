@@ -4,7 +4,7 @@
   --section-border: 0.25em;
 }
 
-@media (--medium-large) {
+@media (width >= 1080px) {
   :root {
     --padding-responsive: calc(var(--padding) * 2);
   }

@@ -2,12 +2,13 @@ import React from 'react'
 import Link from 'next/link'
 import Masonry from 'react-masonry-component';
 import { SimpleImg } from 'react-simple-img';
-import { Heading } from 'Tags'
+import { Heading } from 'Components'
+import styles from './styles.css'
 
 const PortfolioList = ({ portfolioList }) => {
   return (
     <Masonry
-      className='ProjectList'
+      className={styles.root}
       options={{
         transitionDuration: 0
       }}
@@ -19,15 +20,15 @@ const PortfolioList = ({ portfolioList }) => {
               key={slug}
               href={`/portfolio?slug=${slug}`}
               as={`/portfolio/${slug}`}
-            ><a className="ProjectList__grid">
-              <div className='ProjectList__item'>
-                <div className='ProjectList__header'>
-                  <Heading level='h3' className='ProjectList__title'>{title}</Heading>
+            ><a className={styles.grid}>
+              <div className={styles.item}>
+                <div className={styles.header}>
+                  <Heading level='h3' className={styles.title}>{title}</Heading>
                   <div>{year} / {company}</div>
                 </div>
 
                 <SimpleImg
-                  className='ProjectList__image'
+                  className={styles.image}
                   src={thumbnail.src}
                   srcSet={thumbnail.srcSet}
                   placeholder={thumbnail.placeholder}

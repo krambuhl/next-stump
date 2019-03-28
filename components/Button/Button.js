@@ -1,5 +1,6 @@
 import React from 'react'
 import classnames from 'classnames'
+import styles from './styles.css'
 
 export default ({
   tagName,
@@ -10,11 +11,15 @@ export default ({
   ...attrs
 }) => {
   const Tag = tagName || href ? 'a' : 'button'
-  const classList = classnames('Button', `Button--${variant}`, className)
+  const classList = classnames(styles.root, className)
 
   if (href) {
     attrs.href = href
   }
 
-  return <Tag className={classList} {...attrs}>{children}</Tag>
+  return (
+    <React.Fragment>
+      <Tag className={classList} {...attrs}>{children}</Tag>
+    </React.Fragment>
+  )
 }

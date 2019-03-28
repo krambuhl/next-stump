@@ -1,0 +1,89 @@
+@import "../../lib/styles/variables/*.css";
+
+.root {
+  font-size: 1rem;
+  padding-top: 2em;
+  z-index: 100;
+  background-color: var(--color-tan-transparent);
+
+  @media (--small) {
+    position: sticky;
+    top: 0;
+    padding-top: 0;
+  }
+}
+
+.dark {
+  background-color: #000;
+}
+
+.wrapper {
+  position: relative;
+  z-index: 2;
+
+  @media (--small) {
+    display: flex;
+    width: 100%;
+  }
+}
+
+.logo {
+  text-align: center;
+
+  @media (--small) {
+    margin-left: calc(var(--padding) * -0.55);
+  }
+}
+
+.logoLink {
+  display: inline-block;
+  color: var(--color-black);
+  text-decoration: none;
+  padding: calc(var(--padding) * 0.55) var(--padding) calc(var(--padding) * 0.45);
+}
+
+.nav {
+  flex-grow: 1;
+  text-align: center;
+
+  @media (--small) {
+    text-align: right;
+  }
+}
+
+.navList {
+  margin-left: calc(var(--padding) * -0.5);
+
+  & > :global(li) {
+    display: inline-block;
+  }
+
+  @media (--small) {
+    margin-left: auto;
+    margin-right: calc(var(--padding) * -0.5);
+  }
+}
+
+.navLink {
+  display: inline-block;
+  padding: calc(var(--padding) * 0.5) var(--padding);
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: transparent solid 4px;
+}
+
+.navLink__portfolio {
+  color: var(--color-portfolio) !important;
+
+  &:hover {
+    border-bottom-color: var(--color-portfolio);
+  }
+}
+
+.navLink__contact {
+  color: var(--color-contact) !important;
+
+  &:hover {
+    border-bottom-color: var(--color-contact);
+  }
+}

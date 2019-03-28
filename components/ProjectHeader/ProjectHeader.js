@@ -1,13 +1,15 @@
 import React from 'react'
-import { Button, Heading } from 'Tags'
+import classnames from 'classnames'
+import { Button, Heading } from 'Components'
+import styles from './styles.css'
 
 const ProjectHeader = ({ project }) => {
   return (
-    <div className='ProjectHeader Rhythm--default'>
+    <div className={classnames(styles.root, 'u-rhythm')}>
       <Heading level='h1'>{project.title}</Heading>
       <p>{project.year} with <a href={project.companyHref} target="_blank">{project.company}</a></p>
       { project.projectHref &&
-        <p className='ProjectHeader__button'>
+        <p className={styles.button}>
           <Button href={project.projectHref} target="_blank">Visit Project</Button>
         </p>
       }

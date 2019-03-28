@@ -4,9 +4,10 @@ import {
   ErrorPage,
   PageLayout,
   ProjectGallery,
-  ProjectHeader
+  ProjectHeader,
+  Strata,
+  Wrapper
 } from 'Components'
-import { Strata, Wrapper } from 'Tags'
 
 const context = require.context('../lib/portfolio-dist', false, /\-details\.js/)
 
@@ -14,6 +15,14 @@ class Post extends React.Component {
   static async getInitialProps ({ query }) {
     const activeProject = context(`./${query.slug}-details.js`)
     return { activeProject }
+  }
+
+  componentDidMount() {
+    document.body.classList.add('dark')
+  }
+
+  componentWillUnmount () {
+    document.body.classList.remove('dark')
   }
 
   render () {
