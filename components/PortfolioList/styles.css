@@ -20,6 +20,7 @@
     width: 33.33%;
   }
 
+  &:active,
   &:hover,
   &:focus {
     .header,
