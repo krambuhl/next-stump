@@ -1,0 +1,9 @@
+@import "../../lib/styles/variables/*.css";
+
+.root {
+  margin-bottom: 3em;
+}
+
+.button {
+  margin-top: 2rem;
+}

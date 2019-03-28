@@ -1,14 +1,6 @@
 {
   "presets": [
-    [
-      "next/babel", {
-        "styled-jsx": {
-          "plugins": [
-            "styled-jsx-plugin-postcss"
-          ]
-        }
-      }
-    ]
+    "next/babel"
   ],
   "plugins": [
     [
@@ -21,7 +13,6 @@
           "Components": "./components",
           "Tags": "./tags",
           "Lib": "./lib",
-          "Vars": "./lib/variables",
           "Pages": "./pages",
           "Static": "./static"
         }

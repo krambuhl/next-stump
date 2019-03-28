@@ -1,11 +1,12 @@
 import React from 'react'
 import { PageLayout, Wrapper } from 'Components'
+import styles from './styles.css'
 
 const ErrorPage = ({
   statusCode
 }) => (
   <PageLayout error dark>
-    <Wrapper className='root'>
+    <Wrapper className={styles.root}>
       <div>
         {
           statusCode
@@ -14,19 +15,6 @@ const ErrorPage = ({
         }
       </div>
     </Wrapper>
-    <style jsx>{`
-      .root {
-        display: flex;
-        align-items: center;
-        min-height: 90vh;
-        width: 100%;
-      }
-
-      div {
-        text-align: center;
-        width: 100%;
-      }
-    `}</style>
   </PageLayout>
 )
 

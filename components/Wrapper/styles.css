@@ -1,0 +1,11 @@
+@import "../../lib/styles/variables/*.css";
+
+.root {
+  margin: auto;
+  padding-left: var(--padding-responsive);
+  padding-right: var(--padding-responsive);
+}
+
+.size__shell {
+  max-width: 1440px;
+}

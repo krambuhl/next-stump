@@ -1,4 +1,4 @@
-.u-rhythm {
+:global .u-rhythm {
   & > * + * { margin-top: 1rem; }
   &--sm > * + * { margin-top: 0.5rem; }
   &--lg > * + * { margin-top: 2rem; }
