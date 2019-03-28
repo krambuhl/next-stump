@@ -1,13 +1,11 @@
 import React from 'react'
 import Link from 'next/link'
-import Masonry from 'react-masonry-component';
-import { SimpleImg } from 'react-simple-img';
 import { Heading } from 'Components'
 import styles from './styles.css'
 
 const PortfolioList = ({ portfolioList }) => {
   return (
-    <Masonry
+    <div
       className={styles.root}
       options={{
         transitionDuration: 0
@@ -27,23 +25,21 @@ const PortfolioList = ({ portfolioList }) => {
                   <div>{year} / {company}</div>
                 </div>
 
-                <SimpleImg
-                  className={styles.image}
-                  src={thumbnail.src}
-                  srcSet={thumbnail.srcSet}
-                  placeholder={thumbnail.placeholder}
-                  applyAspectRatio
-                  height={thumbnail.height}
-                  width={thumbnail.width}
-                  alt={title}
-                  animationDuration={1}
-                />
+                <div className={styles.image}>
+                  <img
+                    src={thumbnail.src}
+                    srcSet={thumbnail.srcSet}
+                    width="100%"
+                    height="100%"
+                    alt={title}
+                  />
+                </div>
               </div>
             </a></Link>
           )
         })
       }
-    </Masonry>
+    </div>
   )
 }
 

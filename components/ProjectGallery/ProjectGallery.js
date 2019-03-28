@@ -1,5 +1,4 @@
 import React from 'react'
-import { SimpleImg } from 'react-simple-img';
 import styles from './styles.css'
 
 const ProjectGallery = ({ project }) => {
@@ -7,16 +6,13 @@ const ProjectGallery = ({ project }) => {
     <div className={styles.root}>
       {project.projectImages.map(({ alt, image }) => (
         <div key={alt}>
-          <SimpleImg
+          <img
             className={styles.image}
             src={image.src}
             srcSet={image.srcSet}
-            placeholder={image.placeholder}
-            applyAspectRatio
-            height={image.height}
-            width={image.width}
+            width="100%"
+            style={{ maxWidth: 960 }}
             alt={alt}
-            animationDuration={1}
           />
 
           <p className={styles.label}>{alt}</p>

@@ -18,6 +18,10 @@
     width: 33.33%;
   }
 
+  @media (--large) {
+    width: 25%;
+  }
+
   &:hover,
   &:focus {
     .header,
@@ -97,7 +101,7 @@
   margin: 0.5rem 0.5rem;
   box-shadow: #0002 0 1px 5px;
 
-  & > *:last-child {
-    filter: blur(20px);
+  img {
+    display: block;
   }
 }
