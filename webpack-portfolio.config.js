@@ -1,8 +1,9 @@
+const webpack = require('webpack')
 const path = require('path')
+const glob = require('glob')
 const ProgressBarPlugin = require('progress-bar-webpack-plugin')
 const sharpAdaptor = require('responsive-loader/sharp')
 const ImageminPlugin = require('imagemin-webpack-plugin').default
-const glob = require('glob')
 
 // grab detail files
 const list =
@@ -11,8 +12,10 @@ const list =
     .map(item => item.substr(0, item.length - '/details.js'.length))
 
 module.exports = {
-  mode: 'development',
-  // mode: 'production',
+  mode: 'production',
+  optimization: {
+    minimize: false
+  },
   entry: {
     thumbnails: './lib/portfolio/thumbnails.js',
     ...list.reduce((all, module) => {
@@ -33,7 +36,6 @@ module.exports = {
         options: {
           adapter: sharpAdaptor,
           name: '[name]-[width]-[hash].[ext]',
-          placeholder: true,
           outputPath: '../../static/portfolio',
           publicPath: '/static/portfolio/'
         }
@@ -42,6 +44,7 @@ module.exports = {
   },
   plugins: [
     new ProgressBarPlugin(),
-    new ImageminPlugin({ test: /\.(jpe?g|png|gif|svg)$/i })
+    new ImageminPlugin({ test: /\.(jpe?g|png|gif|svg)$/i }),
+    // new webpack.DefinePlugin({ "process.env.NODE_ENV": JSON.stringify("production") }),
   ]
 }
