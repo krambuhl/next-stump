@@ -1,6 +1,7 @@
 const path = require('path')
 const ProgressBarPlugin = require('progress-bar-webpack-plugin')
 const sharpAdaptor = require('responsive-loader/sharp')
+const ImageminPlugin = require('imagemin-webpack-plugin').default
 const glob = require('glob')
 
 // grab detail files
@@ -36,15 +37,11 @@ module.exports = {
           outputPath: '../../static/portfolio',
           publicPath: '/static/portfolio/'
         }
-      },
-      {
-        test: /\.(jpe?g|png)$/,
-        loader: 'image-webpack-loader',
-        enforce: 'pre'
       }
     ]
   },
   plugins: [
-    new ProgressBarPlugin()
+    new ProgressBarPlugin(),
+    new ImageminPlugin({ test: /\.(jpe?g|png|gif|svg)$/i })
   ]
 }
