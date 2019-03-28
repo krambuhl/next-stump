@@ -3,6 +3,8 @@
 .root {
   display: flex;
   flex-flow: row wrap;
+  max-width: 1200px;
+  margin: auto;
 }
 
 .grid {
@@ -16,10 +18,6 @@
 
   @media (--medium-large) {
     width: 33.33%;
-  }
-
-  @media (--large) {
-    width: 25%;
   }
 
   &:hover,

@@ -11,7 +11,7 @@ const ProjectGallery = ({ project }) => {
             src={image.src}
             srcSet={image.srcSet}
             width="100%"
-            style={{ maxWidth: 960 }}
+            style={{ maxWidth: 1180 }}
             alt={alt}
           />
 
