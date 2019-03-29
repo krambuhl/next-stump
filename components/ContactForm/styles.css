@@ -1,0 +1,45 @@
+@import "../../lib/styles/variables/*.css";
+
+.root {
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.name,
+.email {
+  flex: 1 100%;
+
+  @media (--medium) {
+    flex: 1 50%;
+  }
+}
+
+.name {
+  @media (--medium) {
+    padding-right: 0.5em;
+  }
+}
+
+.email {
+  margin-top: 1em;
+
+  @media (--medium) {
+    margin-top: 0;
+    padding-left: 0.5em;
+  }
+}
+
+.message {
+  flex: 1 100%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.button {
+  width: 100%;
+  text-align: center;
+}

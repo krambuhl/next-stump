@@ -1,0 +1,49 @@
+@import "../../lib/styles/variables/*.css";
+
+.root {
+  text-align: left;
+}
+
+.label {
+  display: block;
+  font-size: 1rem;
+  line-height: 1em;
+  margin-bottom: 0.5em;
+  color: var(--color-beige-dark);
+}
+
+.input {
+  display: block;
+  appearance: none;
+  /* border: 2px solid var(--color-beige-dark); */
+  box-shadow: #0002 0 1px 5px;
+  border: none;
+  border-radius: 3px;
+  background-color: var(--color-tan-light);
+  padding: 0.5em;
+  font-size: 1.25rem;
+  font-family: 'museo-sans-rounded', 'Arial Rounded MT Bold', Helvetica;
+  font-weight: 500;
+  width: 100%;
+
+  &:focus {
+    background-color: var(--color-tan-light);
+    outline: none;
+    box-shadow: var(--color-teal) 0 0 0 2px, #0002 0 1px 5px;
+
+    @media (--medium) {
+      box-shadow: var(--color-teal) 0 0 0 3px, #0002 0 1px 5px;
+    }
+  }
+
+  &::placeholder {
+    color: var(--color-beige);
+  }
+}
+
+
+.textarea {
+  min-height: 12em;
+  min-width: 100%;
+  max-width: 100%;
+}

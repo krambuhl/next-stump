@@ -28,4 +28,9 @@ p {
 a {
   text-decoration: underline;
   color: var(--color-black);
+
+  &:focus {
+    outline: none;
+    box-shadow: var(--color-teal) 0 0 0 2px;
+  }
 }

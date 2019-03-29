@@ -3,16 +3,26 @@
 .root {
   border: 2px solid var(--color-portfolio);
   border-radius: 4em;
+  background-color: transparent;
   color: var(--color-portfolio) !important;
   display: inline-block;
-  font-size: 0.75em;
+  font-family: 'museo-sans-rounded', 'Arial Rounded MT Bold', Helvetica;
+  font-size: 1.6rem;
+  line-height: 1.75em;
   text-decoration: none;
   padding: 0em 1.5em;
+  cursor: pointer;
+  min-width: 180px;
 
   &:hover,
   &:focus {
     background-color: var(--color-portfolio);
     color: var(--color-white) !important;
+  }
+
+  &:focus {
+    outline: none;
+    box-shadow: none;
   }
 
   @media (--medium) {

@@ -3,8 +3,13 @@
   --color-black: #000;
   --color-white: #fff;
   --color-tan: #e8e1d1;
+  --color-tan: #e8e1d1;
   --color-tan-transparent: #e8e1d1f1; /* header bg */
-  --color-offtan: #e2d6c580; /* divider */
+  --color-tan-dark: #e2d6c580; /* divider */
+  --color-tan-light: #f9f2e8;
+  --color-beige: #d8c7b2;
+  --color-beige-dark: #b2967d;
+
 
   /* Bright */
   --color-blue: #0d38ca;

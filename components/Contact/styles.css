@@ -1,6 +1,10 @@
 @import "../../lib/styles/variables/*.css";
 
 .root {
-  border-top: var(--section-border) solid var(--color-offtan);
+  border-top: var(--section-border) solid var(--color-tan-dark);
   align-items: center;
+
+  p {
+    max-width: 16em;
+  }
 }
