@@ -12,12 +12,22 @@
   }
 }
 
-.image {
-  overflow: hidden;
-  border-radius: 4px;
+.container {
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  & > *:last-child {
-    filter: blur(20px);
+.image {
+  position: relative;
+
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 4px;
   }
 }
 

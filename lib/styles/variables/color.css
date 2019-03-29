@@ -2,10 +2,9 @@
   /* Neutral */
   --color-black: #000;
   --color-white: #fff;
-  --color-tan: #dcd5c2;
-  --color-tan-transparent: #dcd5c2f1;
-  --color-offtan: #d3cab475;
-  --color-beige: #b0a591;
+  --color-tan: #e8e1d1;
+  --color-tan-transparent: #e8e1d1f1; /* header bg */
+  --color-offtan: #e2d6c580; /* divider */
 
   /* Bright */
   --color-blue: #0d38ca;

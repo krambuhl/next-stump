@@ -5,15 +5,17 @@ const ProjectGallery = ({ project }) => {
   return (
     <div className={styles.root}>
       {project.projectImages.map(({ alt, image }) => (
-        <div key={alt}>
-          <img
+        <div key={alt} className={styles.container}>
+          <div
             className={styles.image}
-            src={image.src}
-            srcSet={image.srcSet}
-            width="100%"
-            style={{ maxWidth: 1180 }}
-            alt={alt}
-          />
+            style={{ paddingBottom: `${image.height / image.width * 100}%` }}
+          >
+            <img
+              src={image.src}
+              srcSet={image.srcSet}
+              alt={alt}
+            />
+          </div>
 
           <p className={styles.label}>{alt}</p>
         </div>
