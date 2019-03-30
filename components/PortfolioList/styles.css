@@ -7,16 +7,17 @@
   max-width: 1180px;
   margin: auto;
 
-  @media (--medium-small) {
-    grid-gap: 1.5rem;
+  @media (--small) {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (--medium) {
+    grid-template-columns: repeat(3, 1fr);
   }
 
   @media (--medium-large) {
     grid-gap: 2rem;
-    grid-template-columns: repeat(3, 1fr);
   }
-
 }
 
 .item {
