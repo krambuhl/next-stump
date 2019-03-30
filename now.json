@@ -2,9 +2,11 @@
   "name": "next-stump",
   "version": 2,
   "builds": [
+    { "src": "send-email.js", "use": "@now/node" },
     { "src": "package.json", "use": "@now/next" }
   ],
   "routes": [
+    { "src": "/send-email", "dest": "send-email.js" },
     { "src": "/portfolio/(?<slug>[^/]+)$", "dest": "/portfolio?slug=$slug" }
   ]
 }

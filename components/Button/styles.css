@@ -34,10 +34,14 @@
   background-color: var(--color-teal);
   color: var(--color-white) !important;
 
-
   &:hover,
   &:focus {
     background-color: var(--color-teal-dark);
     border-color: var(--color-teal-dark);
   }
+}
+
+.spinner {
+  position: relative;
+  top: 3px;
 }
