@@ -26,7 +26,7 @@
   width: 100%;
 
   &:focus {
-    background-color: var(--color-tan-light);
+    background-color: var(--color-tan-lighter);
     outline: none;
     box-shadow: var(--color-teal) 0 0 0 2px, #0002 0 1px 5px;
 
@@ -43,6 +43,5 @@
 
 .textarea {
   min-height: 12em;
-  min-width: 100%;
-  max-width: 100%;
+  resize: vertical;
 }
