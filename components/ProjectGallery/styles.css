@@ -20,14 +20,15 @@
 
 .image {
   position: relative;
+  background-color: var(--color-dark);
+  overflow: hidden;
+  border-radius: 4px;
 
   img {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    overflow: hidden;
-    border-radius: 4px;
   }
 }
 

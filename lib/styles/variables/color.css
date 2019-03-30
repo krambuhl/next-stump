@@ -1,6 +1,7 @@
 :root {
   /* Neutral */
   --color-black: #000;
+  --color-dark: #222;
   --color-white: #fff;
   --color-tan: #e8e1d1;
   --color-tan-transparent: #e8e1d1f1; /* header bg */
