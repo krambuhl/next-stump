@@ -3,7 +3,6 @@
   --color-black: #000;
   --color-white: #fff;
   --color-tan: #e8e1d1;
-  --color-tan: #e8e1d1;
   --color-tan-transparent: #e8e1d1f1; /* header bg */
   --color-tan-dark: #e2d6c580; /* divider */
   --color-tan-light: #f9f2e8;
@@ -14,6 +13,7 @@
   /* Bright */
   --color-blue: #0d38ca;
   --color-teal: #0097ee;
+  --color-teal-dark: #007ecc;
   --color-orange: #f6371d;
   --color-yellow: #f7ca39;
 

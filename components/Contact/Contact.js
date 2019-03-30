@@ -8,7 +8,7 @@ const Contact = () => (
       <Heading level='h2'>You want to say hello?</Heading>
       <p>Send me a message and we can get creative together!</p>
 
-      <ContactForm />
+      <ContactForm className={styles.form} />
     </Wrapper>
   </Strata>
 )

@@ -1,9 +1,10 @@
 import React from 'react'
+import classnames from 'classnames'
 import { Button, InputField } from 'Components'
 import styles from './styles.css'
 
-const ContactForm = () => (
-  <form className={styles.root} action='#'>
+const ContactForm = ({ className }) => (
+  <form className={classnames(styles.root, className)} action='#'>
     <div className={styles.name}>
       <InputField
         id='name'
@@ -29,7 +30,7 @@ const ContactForm = () => (
     </div>
 
     <div className={styles.button}>
-      <Button type="submit">Send</Button>
+      <Button type="submit" variant="filled">Send</Button>
     </div>
   </form>
 )

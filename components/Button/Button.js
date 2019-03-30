@@ -5,13 +5,13 @@ import styles from './styles.css'
 export default ({
   tagName,
   href,
-  variant = '',
+  variant = 'outline',
   className,
   children,
   ...attrs
 }) => {
   const Tag = tagName || href ? 'a' : 'button'
-  const classList = classnames(styles.root, className)
+  const classList = classnames(styles.root, styles[variant], className)
 
   if (href) {
     attrs.href = href

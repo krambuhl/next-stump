@@ -1,10 +1,10 @@
 @import "../../lib/styles/variables/*.css";
 
 .root {
-  border: 2px solid var(--color-portfolio);
+  border: 2px solid var(--color-teal);
   border-radius: 4em;
   background-color: transparent;
-  color: var(--color-portfolio) !important;
+  color: var(--color-teal) !important;
   display: inline-block;
   font-family: 'museo-sans-rounded', 'Arial Rounded MT Bold', Helvetica;
   font-size: 1.6rem;
@@ -16,7 +16,7 @@
 
   &:hover,
   &:focus {
-    background-color: var(--color-portfolio);
+    background-color: var(--color-teal);
     color: var(--color-white) !important;
   }
 
@@ -27,5 +27,17 @@
 
   @media (--medium) {
     border-width: 3px;
+  }
+}
+
+.filled {
+  background-color: var(--color-teal);
+  color: var(--color-white) !important;
+
+
+  &:hover,
+  &:focus {
+    background-color: var(--color-teal-dark);
+    border-color: var(--color-teal-dark);
   }
 }
