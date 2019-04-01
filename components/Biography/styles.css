@@ -11,4 +11,10 @@
 .head {
   margin-top: 1.4em;
   margin-bottom: 1.8em;
+
+  img {
+    background-color: var(--color-beige);
+    border-radius: 1000px;
+    box-shadow: #0002 0 1px 5px;
+  }
 }

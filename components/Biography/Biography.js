@@ -17,7 +17,7 @@ const Biography = () => (
       </p>
 
       <p className={styles.head}>
-        <img src='/static/head-1.jpg' srcSet='/static/head-1.jpg 1x, /static/head-1@2x.jpg 2x' alt='my face' width='100%' style={{ borderRadius: 100000, maxWidth: 480 }} />
+        <img src='/static/head-1.jpg' srcSet='/static/head-1.jpg 1x, /static/head-1@2x.jpg 2x' alt='my face' width='100%' style={{ maxWidth: 480 }} />
       </p>
 
       <Heading level='h2'>I enjoy</Heading>

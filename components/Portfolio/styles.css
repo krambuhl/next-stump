@@ -7,4 +7,8 @@
 
 .header {
   margin-bottom: 3em;
+
+  p {
+    max-width: 16em;
+  }
 }
