@@ -7,8 +7,8 @@ const ImageminPlugin = require('imagemin-webpack-plugin').default
 
 // grab detail files
 const list =
-  glob.sync('./lib/portfolio/**/details.js')
-    .map(item => item.substr('./lib/portfolio/'.length))
+  glob.sync('./content/portfolio/**/details.js')
+    .map(item => item.substr('./content/portfolio/'.length))
     .map(item => item.substr(0, item.length - '/details.js'.length))
 
 module.exports = {
@@ -17,14 +17,14 @@ module.exports = {
     minimize: false
   },
   entry: {
-    thumbnails: './lib/portfolio/thumbnails.js',
+    thumbnails: './content/portfolio/thumbnails.js',
     ...list.reduce((all, module) => {
-      all[`${module}-details`] = `./lib/portfolio/${module}/details.js`
+      all[`${module}-details`] = `./content/portfolio/${module}/details.js`
       return all
     }, {})
   },
   output: {
-    path: path.resolve(__dirname, 'lib/portfolio-dist'),
+    path: path.resolve(__dirname, 'content/portfolio-dist'),
     filename: '[name].js',
     libraryTarget: 'commonjs'
   },

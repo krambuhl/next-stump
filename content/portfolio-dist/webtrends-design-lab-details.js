@@ -81,17 +81,17 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 91);
+/******/ 	return __webpack_require__(__webpack_require__.s = 82);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ 9:
+/***/ 8:
 /***/ (function(module, exports) {
 
 module.exports = {
-  slug: 'webtrends-today',
-  title: 'Webtrends Today App',
+  slug: 'webtrends-design-lab',
+  title: 'Webtrends Design Lab',
   year: 2012,
   company: 'Webtrends',
   companyHref: 'https://www.webtrends.com/',
@@ -101,70 +101,59 @@ module.exports = {
 
 /***/ }),
 
-/***/ 91:
+/***/ 82:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = {
-  ...__webpack_require__(9),
+  ...__webpack_require__(8),
   projectImages: [
     {
-      alt: 'Overview dashboard',
-      image: __webpack_require__(92)
+      alt: 'Telegraph.co.uk streams demo',
+      image: __webpack_require__(83)
     },
     {
-      alt: 'Webtrends dashboard',
-      image: __webpack_require__(93)
+      alt: 'Motorcycle USA streams demo',
+      image: __webpack_require__(84)
     },
     {
-      alt: 'Facebook dashboard',
-      image: __webpack_require__(94)
+      alt: 'MSN dashboard',
+      image: __webpack_require__(85)
     },
     {
-      alt: 'Twitter dashboard',
-      image: __webpack_require__(95)
-    },
-    {
-      alt: 'Youtube dashboard',
-      image: __webpack_require__(96)
-    },
+      alt: 'Red Bull dashboard',
+      image: __webpack_require__(86)
+    }
   ]
 }
 
 
 /***/ }),
 
-/***/ 92:
+/***/ 83:
 /***/ (function(module, exports) {
 
-module.exports = {srcSet:"/static/portfolio/overview-637-a65fa6ac2800c57959943900c712ec57.jpg"+" 637w",images:[{path:"/static/portfolio/overview-637-a65fa6ac2800c57959943900c712ec57.jpg",width:637,height:478}],src:"/static/portfolio/overview-637-a65fa6ac2800c57959943900c712ec57.jpg",toString:function(){return "/static/portfolio/overview-637-a65fa6ac2800c57959943900c712ec57.jpg"},placeholder: undefined,width:637,height:478};
+module.exports = {srcSet:"/static/portfolio/stream-telegraph-720-c975ec681de0cd1d5fd3f7f6bb7e38db.jpg"+" 720w"+","+"/static/portfolio/stream-telegraph-730-ecfb070a4933b17e4d3767862a558aed.jpg"+" 730w",images:[{path:"/static/portfolio/stream-telegraph-720-c975ec681de0cd1d5fd3f7f6bb7e38db.jpg",width:720,height:404},{path:"/static/portfolio/stream-telegraph-730-ecfb070a4933b17e4d3767862a558aed.jpg",width:730,height:410}],src:"/static/portfolio/stream-telegraph-720-c975ec681de0cd1d5fd3f7f6bb7e38db.jpg",toString:function(){return "/static/portfolio/stream-telegraph-720-c975ec681de0cd1d5fd3f7f6bb7e38db.jpg"},placeholder: undefined,width:720,height:404};
 
 /***/ }),
 
-/***/ 93:
+/***/ 84:
 /***/ (function(module, exports) {
 
-module.exports = {srcSet:"/static/portfolio/webtrends-637-8c4ba02db705a0f1e49bcc885d1e733c.jpg"+" 637w",images:[{path:"/static/portfolio/webtrends-637-8c4ba02db705a0f1e49bcc885d1e733c.jpg",width:637,height:478}],src:"/static/portfolio/webtrends-637-8c4ba02db705a0f1e49bcc885d1e733c.jpg",toString:function(){return "/static/portfolio/webtrends-637-8c4ba02db705a0f1e49bcc885d1e733c.jpg"},placeholder: undefined,width:637,height:478};
+module.exports = {srcSet:"/static/portfolio/stream-musa-720-1fd2c806eef52ec4c9a6cc40ebfbf795.jpg"+" 720w"+","+"/static/portfolio/stream-musa-768-34e4a031b8a0f64afbc76df9ec7ec582.jpg"+" 768w",images:[{path:"/static/portfolio/stream-musa-720-1fd2c806eef52ec4c9a6cc40ebfbf795.jpg",width:720,height:405},{path:"/static/portfolio/stream-musa-768-34e4a031b8a0f64afbc76df9ec7ec582.jpg",width:768,height:432}],src:"/static/portfolio/stream-musa-720-1fd2c806eef52ec4c9a6cc40ebfbf795.jpg",toString:function(){return "/static/portfolio/stream-musa-720-1fd2c806eef52ec4c9a6cc40ebfbf795.jpg"},placeholder: undefined,width:720,height:405};
 
 /***/ }),
 
-/***/ 94:
+/***/ 85:
 /***/ (function(module, exports) {
 
-module.exports = {srcSet:"/static/portfolio/facebook-637-b9d9cf8aca57277522949fb0f57bcc94.jpg"+" 637w",images:[{path:"/static/portfolio/facebook-637-b9d9cf8aca57277522949fb0f57bcc94.jpg",width:637,height:478}],src:"/static/portfolio/facebook-637-b9d9cf8aca57277522949fb0f57bcc94.jpg",toString:function(){return "/static/portfolio/facebook-637-b9d9cf8aca57277522949fb0f57bcc94.jpg"},placeholder: undefined,width:637,height:478};
+module.exports = {srcSet:"/static/portfolio/msn-720-821216bf7f4463f30df506caf17a3a02.jpg"+" 720w"+","+"/static/portfolio/msn-730-3ae9a83ec53c37884c9fa4a63e2ad94b.jpg"+" 730w",images:[{path:"/static/portfolio/msn-720-821216bf7f4463f30df506caf17a3a02.jpg",width:720,height:404},{path:"/static/portfolio/msn-730-3ae9a83ec53c37884c9fa4a63e2ad94b.jpg",width:730,height:410}],src:"/static/portfolio/msn-720-821216bf7f4463f30df506caf17a3a02.jpg",toString:function(){return "/static/portfolio/msn-720-821216bf7f4463f30df506caf17a3a02.jpg"},placeholder: undefined,width:720,height:404};
 
 /***/ }),
 
-/***/ 95:
+/***/ 86:
 /***/ (function(module, exports) {
 
-module.exports = {srcSet:"/static/portfolio/twitter-637-f2a3308bad8407761b892cea2c9fbe48.jpg"+" 637w",images:[{path:"/static/portfolio/twitter-637-f2a3308bad8407761b892cea2c9fbe48.jpg",width:637,height:478}],src:"/static/portfolio/twitter-637-f2a3308bad8407761b892cea2c9fbe48.jpg",toString:function(){return "/static/portfolio/twitter-637-f2a3308bad8407761b892cea2c9fbe48.jpg"},placeholder: undefined,width:637,height:478};
-
-/***/ }),
-
-/***/ 96:
-/***/ (function(module, exports) {
-
-module.exports = {srcSet:"/static/portfolio/youtube-637-df8f6bb63a5719c4d1a3da7ece0993de.jpg"+" 637w",images:[{path:"/static/portfolio/youtube-637-df8f6bb63a5719c4d1a3da7ece0993de.jpg",width:637,height:478}],src:"/static/portfolio/youtube-637-df8f6bb63a5719c4d1a3da7ece0993de.jpg",toString:function(){return "/static/portfolio/youtube-637-df8f6bb63a5719c4d1a3da7ece0993de.jpg"},placeholder: undefined,width:637,height:478};
+module.exports = {srcSet:"/static/portfolio/redbull-720-c7b5d6ed85ccb051b1f455acf7a937ee.jpg"+" 720w"+","+"/static/portfolio/redbull-730-7c4f726cc107335342a0254901a07cc9.jpg"+" 730w",images:[{path:"/static/portfolio/redbull-720-c7b5d6ed85ccb051b1f455acf7a937ee.jpg",width:720,height:404},{path:"/static/portfolio/redbull-730-7c4f726cc107335342a0254901a07cc9.jpg",width:730,height:410}],src:"/static/portfolio/redbull-720-c7b5d6ed85ccb051b1f455acf7a937ee.jpg",toString:function(){return "/static/portfolio/redbull-720-c7b5d6ed85ccb051b1f455acf7a937ee.jpg"},placeholder: undefined,width:720,height:404};
 
 /***/ })
 

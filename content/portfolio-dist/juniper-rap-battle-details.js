@@ -81,28 +81,34 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 47);
+/******/ 	return __webpack_require__(__webpack_require__.s = 56);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ 47:
+/***/ 3:
+/***/ (function(module, exports) {
+
+module.exports = {
+  slug: 'juniper-rap-battle',
+  title: 'Juniper Data Center Rap Battle',
+  year: 2014,
+  company: 'John McNeil Studio',
+  projectHref: undefined,
+}
+
+
+/***/ }),
+
+/***/ 56:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = {
-  ...__webpack_require__(7),
+  ...__webpack_require__(3),
   projectImages: [
     {
-      alt: 'IL7 Logo',
-      image: __webpack_require__(48)
-    },
-    {
-      alt: 'Remix the things',
-      image: __webpack_require__(49)
-    },
-    {
-      alt: 'Design Lab status board',
-      image: __webpack_require__(50)
+      alt: 'Landing page',
+      image: __webpack_require__(57)
     }
   ]
 }
@@ -110,39 +116,10 @@ module.exports = {
 
 /***/ }),
 
-/***/ 48:
+/***/ 57:
 /***/ (function(module, exports) {
 
-module.exports = {srcSet:"/static/portfolio/il7-720-5252f58ddfe484806f599a0981ed702a.jpg"+" 720w"+","+"/static/portfolio/il7-800-3c1c4ba996c9d828fc5824d68765ea83.jpg"+" 800w",images:[{path:"/static/portfolio/il7-720-5252f58ddfe484806f599a0981ed702a.jpg",width:720,height:720},{path:"/static/portfolio/il7-800-3c1c4ba996c9d828fc5824d68765ea83.jpg",width:800,height:800}],src:"/static/portfolio/il7-720-5252f58ddfe484806f599a0981ed702a.jpg",toString:function(){return "/static/portfolio/il7-720-5252f58ddfe484806f599a0981ed702a.jpg"},placeholder: undefined,width:720,height:720};
-
-/***/ }),
-
-/***/ 49:
-/***/ (function(module, exports) {
-
-module.exports = {srcSet:"/static/portfolio/catharsis-720-f0544ccb9e3f91aa61ae577b636eec2a.jpg"+" 720w"+","+"/static/portfolio/catharsis-1200-f68b61fa1e364efe1bbab76be1d63d5e.jpg"+" 1200w",images:[{path:"/static/portfolio/catharsis-720-f0544ccb9e3f91aa61ae577b636eec2a.jpg",width:720,height:450},{path:"/static/portfolio/catharsis-1200-f68b61fa1e364efe1bbab76be1d63d5e.jpg",width:1200,height:750}],src:"/static/portfolio/catharsis-720-f0544ccb9e3f91aa61ae577b636eec2a.jpg",toString:function(){return "/static/portfolio/catharsis-720-f0544ccb9e3f91aa61ae577b636eec2a.jpg"},placeholder: undefined,width:720,height:450};
-
-/***/ }),
-
-/***/ 50:
-/***/ (function(module, exports) {
-
-module.exports = {srcSet:"/static/portfolio/design-lab-status-720-33b7b8690f076e13c0de8a6286726e45.jpg"+" 720w"+","+"/static/portfolio/design-lab-status-1440-be405aa34ad546415e5e1e74a7a11ee3.jpg"+" 1440w",images:[{path:"/static/portfolio/design-lab-status-720-33b7b8690f076e13c0de8a6286726e45.jpg",width:720,height:405},{path:"/static/portfolio/design-lab-status-1440-be405aa34ad546415e5e1e74a7a11ee3.jpg",width:1440,height:810}],src:"/static/portfolio/design-lab-status-720-33b7b8690f076e13c0de8a6286726e45.jpg",toString:function(){return "/static/portfolio/design-lab-status-720-33b7b8690f076e13c0de8a6286726e45.jpg"},placeholder: undefined,width:720,height:405};
-
-/***/ }),
-
-/***/ 7:
-/***/ (function(module, exports) {
-
-module.exports = {
-  slug: 'design-prototypes',
-  title: 'Design Prototypes',
-  year: 2012,
-  company: 'Stumptown Bear',
-  companyHref: 'http://stumptownbear.com',
-  projectHref: null
-}
-
+module.exports = {srcSet:"/static/portfolio/website-720-b9c739187dbceb596655919dc43b8eea.jpg"+" 720w"+","+"/static/portfolio/website-1421-4033f3c369f0920858be3f82a4438a12.jpg"+" 1421w",images:[{path:"/static/portfolio/website-720-b9c739187dbceb596655919dc43b8eea.jpg",width:720,height:1020},{path:"/static/portfolio/website-1421-4033f3c369f0920858be3f82a4438a12.jpg",width:1421,height:2013}],src:"/static/portfolio/website-720-b9c739187dbceb596655919dc43b8eea.jpg",toString:function(){return "/static/portfolio/website-720-b9c739187dbceb596655919dc43b8eea.jpg"},placeholder: undefined,width:720,height:1020};
 
 /***/ })
 

@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "build:portfolio-data": "rm -rf static/portfolio && rm -rf lib/portfolio-dist && webpack --config ./webpack-portfolio.config.js",
-    "deploy": "npm run build:portfolio-data && now",
+    "build:content": "rm -rf static/portfolio && rm -rf lib/portfolio-dist && webpack --config ./webpack-portfolio.config.js",
+    "deploy": "npm run build:content && now",
     "start": "NODE_ENV=production next"
   },
   "repository": {

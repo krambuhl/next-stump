@@ -81,47 +81,28 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 51);
+/******/ 	return __webpack_require__(__webpack_require__.s = 41);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ 1:
-/***/ (function(module, exports) {
-
-module.exports = {
-  slug: 'intuit-hackathon',
-  title: 'Intuit Hackathon',
-  year: 2019,
-  company: 'Turn',
-  companyHref: 'https://turnwith.us/',
-  projectHref: 'https://www.smallbizhack.com/'
-}
-
-
-/***/ }),
-
-/***/ 51:
+/***/ 41:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = {
-  ...__webpack_require__(1),
+  ...__webpack_require__(7),
   projectImages: [
     {
-      alt: 'Landing Page',
-      image: __webpack_require__(52)
+      alt: 'IL7 Logo',
+      image: __webpack_require__(42)
     },
     {
-      alt: 'Location Information',
-      image: __webpack_require__(53)
+      alt: 'Remix the things',
+      image: __webpack_require__(43)
     },
     {
-      alt: 'Location Getting Started',
-      image: __webpack_require__(54)
-    },
-    {
-      alt: 'Location Wrapup',
-      image: __webpack_require__(55)
+      alt: 'Design Lab status board',
+      image: __webpack_require__(44)
     }
   ]
 }
@@ -129,31 +110,39 @@ module.exports = {
 
 /***/ }),
 
-/***/ 52:
+/***/ 42:
 /***/ (function(module, exports) {
 
-module.exports = {srcSet:"/static/portfolio/landing-720-f4f8eb434bd3db31ad99def43d85e4c0.jpg"+" 720w"+","+"/static/portfolio/landing-1440-49cf855bbc7c8cb414ece762fc4c1580.jpg"+" 1440w",images:[{path:"/static/portfolio/landing-720-f4f8eb434bd3db31ad99def43d85e4c0.jpg",width:720,height:626},{path:"/static/portfolio/landing-1440-49cf855bbc7c8cb414ece762fc4c1580.jpg",width:1440,height:1252}],src:"/static/portfolio/landing-720-f4f8eb434bd3db31ad99def43d85e4c0.jpg",toString:function(){return "/static/portfolio/landing-720-f4f8eb434bd3db31ad99def43d85e4c0.jpg"},placeholder: undefined,width:720,height:626};
+module.exports = {srcSet:"/static/portfolio/il7-720-5252f58ddfe484806f599a0981ed702a.jpg"+" 720w"+","+"/static/portfolio/il7-800-3c1c4ba996c9d828fc5824d68765ea83.jpg"+" 800w",images:[{path:"/static/portfolio/il7-720-5252f58ddfe484806f599a0981ed702a.jpg",width:720,height:720},{path:"/static/portfolio/il7-800-3c1c4ba996c9d828fc5824d68765ea83.jpg",width:800,height:800}],src:"/static/portfolio/il7-720-5252f58ddfe484806f599a0981ed702a.jpg",toString:function(){return "/static/portfolio/il7-720-5252f58ddfe484806f599a0981ed702a.jpg"},placeholder: undefined,width:720,height:720};
 
 /***/ }),
 
-/***/ 53:
+/***/ 43:
 /***/ (function(module, exports) {
 
-module.exports = {srcSet:"/static/portfolio/location-720-889e0d202ec64048b7cffbc0e56d4054.jpg"+" 720w"+","+"/static/portfolio/location-1440-992afb7a7d81fa3d45b4468dc2209ebf.jpg"+" 1440w",images:[{path:"/static/portfolio/location-720-889e0d202ec64048b7cffbc0e56d4054.jpg",width:720,height:3470},{path:"/static/portfolio/location-1440-992afb7a7d81fa3d45b4468dc2209ebf.jpg",width:1440,height:6939}],src:"/static/portfolio/location-720-889e0d202ec64048b7cffbc0e56d4054.jpg",toString:function(){return "/static/portfolio/location-720-889e0d202ec64048b7cffbc0e56d4054.jpg"},placeholder: undefined,width:720,height:3470};
+module.exports = {srcSet:"/static/portfolio/catharsis-720-f0544ccb9e3f91aa61ae577b636eec2a.jpg"+" 720w"+","+"/static/portfolio/catharsis-1200-f68b61fa1e364efe1bbab76be1d63d5e.jpg"+" 1200w",images:[{path:"/static/portfolio/catharsis-720-f0544ccb9e3f91aa61ae577b636eec2a.jpg",width:720,height:450},{path:"/static/portfolio/catharsis-1200-f68b61fa1e364efe1bbab76be1d63d5e.jpg",width:1200,height:750}],src:"/static/portfolio/catharsis-720-f0544ccb9e3f91aa61ae577b636eec2a.jpg",toString:function(){return "/static/portfolio/catharsis-720-f0544ccb9e3f91aa61ae577b636eec2a.jpg"},placeholder: undefined,width:720,height:450};
 
 /***/ }),
 
-/***/ 54:
+/***/ 44:
 /***/ (function(module, exports) {
 
-module.exports = {srcSet:"/static/portfolio/getting-started-720-2ea1c36acf3375b85b450bb2403d1036.jpg"+" 720w"+","+"/static/portfolio/getting-started-1440-afa3fc1a594930c2e68c9b01407f5d98.jpg"+" 1440w",images:[{path:"/static/portfolio/getting-started-720-2ea1c36acf3375b85b450bb2403d1036.jpg",width:720,height:1131},{path:"/static/portfolio/getting-started-1440-afa3fc1a594930c2e68c9b01407f5d98.jpg",width:1440,height:2262}],src:"/static/portfolio/getting-started-720-2ea1c36acf3375b85b450bb2403d1036.jpg",toString:function(){return "/static/portfolio/getting-started-720-2ea1c36acf3375b85b450bb2403d1036.jpg"},placeholder: undefined,width:720,height:1131};
+module.exports = {srcSet:"/static/portfolio/design-lab-status-720-33b7b8690f076e13c0de8a6286726e45.jpg"+" 720w"+","+"/static/portfolio/design-lab-status-1440-be405aa34ad546415e5e1e74a7a11ee3.jpg"+" 1440w",images:[{path:"/static/portfolio/design-lab-status-720-33b7b8690f076e13c0de8a6286726e45.jpg",width:720,height:405},{path:"/static/portfolio/design-lab-status-1440-be405aa34ad546415e5e1e74a7a11ee3.jpg",width:1440,height:810}],src:"/static/portfolio/design-lab-status-720-33b7b8690f076e13c0de8a6286726e45.jpg",toString:function(){return "/static/portfolio/design-lab-status-720-33b7b8690f076e13c0de8a6286726e45.jpg"},placeholder: undefined,width:720,height:405};
 
 /***/ }),
 
-/***/ 55:
+/***/ 7:
 /***/ (function(module, exports) {
 
-module.exports = {srcSet:"/static/portfolio/wrapup-720-e822e44245cffb85c4439f9c7d82387d.jpg"+" 720w"+","+"/static/portfolio/wrapup-1440-31a6e9606df2f861860938ee2bbc49d7.jpg"+" 1440w",images:[{path:"/static/portfolio/wrapup-720-e822e44245cffb85c4439f9c7d82387d.jpg",width:720,height:381},{path:"/static/portfolio/wrapup-1440-31a6e9606df2f861860938ee2bbc49d7.jpg",width:1440,height:763}],src:"/static/portfolio/wrapup-720-e822e44245cffb85c4439f9c7d82387d.jpg",toString:function(){return "/static/portfolio/wrapup-720-e822e44245cffb85c4439f9c7d82387d.jpg"},placeholder: undefined,width:720,height:381};
+module.exports = {
+  slug: 'design-prototypes',
+  title: 'Design Prototypes',
+  year: 2012,
+  company: 'Stumptown Bear',
+  companyHref: 'http://stumptownbear.com',
+  projectHref: null
+}
+
 
 /***/ })
 

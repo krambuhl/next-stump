@@ -6,7 +6,7 @@ import styles from './styles.css'
 
 const emailUrl = (
   process.env.NODE_ENV !== 'production'
-    ? 'http://localhost:3001/send-email?'
+    ? 'https://stumptownbear.com/send-email'
     : '/send-email'
 )
 
@@ -16,7 +16,8 @@ class ContactForm extends React.Component {
 
     this.state = {
       isSending: false,
-      hasError: false
+      isSent: false,
+      hasServerError: false
     }
 
     this.formRef = React.createRef()
@@ -29,7 +30,9 @@ class ContactForm extends React.Component {
     const form = this.formRef.current
 
     this.setState({
-      isSending: true
+      hasServerError: false,
+      isSending: true,
+      isSent: false
     })
 
     fetch(emailUrl, {
@@ -46,15 +49,30 @@ class ContactForm extends React.Component {
       .then(res => res.text())
       .then(() => {
         this.setState({
-          hasError: false,
-          isSending: false
+          hasServerError: false,
+          isSending: false,
+          isSent: true
         })
+
+        clearTimeout(this.timer)
+        this.timer = setTimeout(() => {
+          this.setState({
+            isSent: false
+          })
+        }, 2000)
       })
       .catch(err => {
         this.setState({
-          hasError: err,
+          hasServerError: err,
           isSending: false
         })
+
+        clearTimeout(this.timer)
+        this.timer = setTimeout(() => {
+          this.setState({
+            hasServerError: false
+          })
+        }, 2000)
       })
   }
 
@@ -90,6 +108,14 @@ class ContactForm extends React.Component {
             type='textarea'
           />
         </div>
+
+        { this.state.isSent &&
+          <div className={classnames(styles.feedback, styles.success)}>Email sent!</div>
+        }
+
+        { this.state.hasServerError &&
+          <div className={classnames(styles.feedback, styles.error)}>Error: {this.state.hasServerError}</div>
+        }
 
         <div className={styles.button}>
           <Button

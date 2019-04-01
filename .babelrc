@@ -13,6 +13,7 @@
           "Components": "./components",
           "Tags": "./tags",
           "Lib": "./lib",
+          "Content": "./content",
           "Pages": "./pages",
           "Static": "./static"
         }

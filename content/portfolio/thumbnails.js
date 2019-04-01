@@ -12,8 +12,8 @@ module.exports = {
     require('./design-prototypes/thumbnail'),
     require('./webtrends-design-lab/thumbnail'),
     require('./webtrends-today/thumbnail'),
-    require('./polycom/thumbnail'),
-    require('./southridge-tech/thumbnail'),
+    // require('./polycom/thumbnail'),
+    // require('./southridge-tech/thumbnail'),
 
     // personal
     require('./iounoi/thumbnail'),

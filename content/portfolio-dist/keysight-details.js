@@ -81,39 +81,28 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 68);
+/******/ 	return __webpack_require__(__webpack_require__.s = 58);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ 13:
-/***/ (function(module, exports) {
-
-module.exports = {
-  slug: 'pm-falling-sun',
-  title: 'Precision Machines\' Falling Sun',
-  year: 2016,
-  company: 'Stumptown Bear',
-  companyHref: 'http://stumptownbear.com',
-  projectHref: 'http://pmisdead.com/fallingsun/',
-}
-
-
-/***/ }),
-
-/***/ 68:
+/***/ 58:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = {
-  ...__webpack_require__(13),
+  ...__webpack_require__(6),
   projectImages: [
     {
-      alt: 'Falling Sun album cover',
-      image: __webpack_require__(69)
+      alt: 'Product bundle page',
+      image: __webpack_require__(59)
     },
     {
-      alt: 'Falling Sun website',
-      image: __webpack_require__(70)
+      alt: 'Product family page',
+      image: __webpack_require__(60)
+    },
+    {
+      alt: 'Product family overview page',
+      image: __webpack_require__(61)
     }
   ]
 }
@@ -121,17 +110,39 @@ module.exports = {
 
 /***/ }),
 
-/***/ 69:
+/***/ 59:
 /***/ (function(module, exports) {
 
-module.exports = {srcSet:"/static/portfolio/cover-720-e042a5302b9891fbf07bd90560c2b128.jpg"+" 720w"+","+"/static/portfolio/cover-800-22b831b626a1955c266f2f9604b77171.jpg"+" 800w",images:[{path:"/static/portfolio/cover-720-e042a5302b9891fbf07bd90560c2b128.jpg",width:720,height:720},{path:"/static/portfolio/cover-800-22b831b626a1955c266f2f9604b77171.jpg",width:800,height:800}],src:"/static/portfolio/cover-720-e042a5302b9891fbf07bd90560c2b128.jpg",toString:function(){return "/static/portfolio/cover-720-e042a5302b9891fbf07bd90560c2b128.jpg"},placeholder: undefined,width:720,height:720};
+module.exports = {srcSet:"/static/portfolio/bundle-720-dbe3ba6097d3d0a58f8122fab65d3af3.jpg"+" 720w"+","+"/static/portfolio/bundle-1440-1a0cc377a00a6ebda3db66adef7390d2.jpg"+" 1440w",images:[{path:"/static/portfolio/bundle-720-dbe3ba6097d3d0a58f8122fab65d3af3.jpg",width:720,height:1287},{path:"/static/portfolio/bundle-1440-1a0cc377a00a6ebda3db66adef7390d2.jpg",width:1440,height:2574}],src:"/static/portfolio/bundle-720-dbe3ba6097d3d0a58f8122fab65d3af3.jpg",toString:function(){return "/static/portfolio/bundle-720-dbe3ba6097d3d0a58f8122fab65d3af3.jpg"},placeholder: undefined,width:720,height:1287};
 
 /***/ }),
 
-/***/ 70:
+/***/ 6:
 /***/ (function(module, exports) {
 
-module.exports = {srcSet:"/static/portfolio/website-720-081f949a8fc20291bb0bdba132987106.jpg"+" 720w"+","+"/static/portfolio/website-1440-9412ecc20fe942971efedb9fa86e9c6c.jpg"+" 1440w",images:[{path:"/static/portfolio/website-720-081f949a8fc20291bb0bdba132987106.jpg",width:720,height:810},{path:"/static/portfolio/website-1440-9412ecc20fe942971efedb9fa86e9c6c.jpg",width:1440,height:1620}],src:"/static/portfolio/website-720-081f949a8fc20291bb0bdba132987106.jpg",toString:function(){return "/static/portfolio/website-720-081f949a8fc20291bb0bdba132987106.jpg"},placeholder: undefined,width:720,height:810};
+module.exports = {
+  slug: 'keysight',
+  title: 'Keysight Technologies',
+  year: 2016,
+  company: 'ConnectiveDX',
+  companyHref: 'https://www.connectivedx.com/',
+  projectHref: 'https://www.keysight.com/us/en/software/application-sw.html',
+}
+
+
+/***/ }),
+
+/***/ 60:
+/***/ (function(module, exports) {
+
+module.exports = {srcSet:"/static/portfolio/family-720-cbd08dbf1f42096f5ede9dbe8bcb0108.jpg"+" 720w"+","+"/static/portfolio/family-1440-feb5fcc47ec62f0365e937071fa46d87.jpg"+" 1440w",images:[{path:"/static/portfolio/family-720-cbd08dbf1f42096f5ede9dbe8bcb0108.jpg",width:720,height:2080},{path:"/static/portfolio/family-1440-feb5fcc47ec62f0365e937071fa46d87.jpg",width:1440,height:4160}],src:"/static/portfolio/family-720-cbd08dbf1f42096f5ede9dbe8bcb0108.jpg",toString:function(){return "/static/portfolio/family-720-cbd08dbf1f42096f5ede9dbe8bcb0108.jpg"},placeholder: undefined,width:720,height:2080};
+
+/***/ }),
+
+/***/ 61:
+/***/ (function(module, exports) {
+
+module.exports = {srcSet:"/static/portfolio/overview-720-f8d689a093753aa0a47565ac16e32a5a.jpg"+" 720w"+","+"/static/portfolio/overview-1440-8fc32a10ad6cb39e37bc42b7f99f00aa.jpg"+" 1440w",images:[{path:"/static/portfolio/overview-720-f8d689a093753aa0a47565ac16e32a5a.jpg",width:720,height:1486},{path:"/static/portfolio/overview-1440-8fc32a10ad6cb39e37bc42b7f99f00aa.jpg",width:1440,height:2972}],src:"/static/portfolio/overview-720-f8d689a093753aa0a47565ac16e32a5a.jpg",toString:function(){return "/static/portfolio/overview-720-f8d689a093753aa0a47565ac16e32a5a.jpg"},placeholder: undefined,width:720,height:1486};
 
 /***/ })
 

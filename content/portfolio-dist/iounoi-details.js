@@ -81,12 +81,12 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 56);
+/******/ 	return __webpack_require__(__webpack_require__.s = 50);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ 12:
+/***/ 10:
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -101,19 +101,19 @@ module.exports = {
 
 /***/ }),
 
-/***/ 56:
+/***/ 50:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = {
-  ...__webpack_require__(12),
+  ...__webpack_require__(10),
   projectImages: [
     {
       alt: 'IOUNOI Logo',
-      image: __webpack_require__(57)
+      image: __webpack_require__(51)
     },
     {
       alt: 'Nourish and Destroy Website',
-      image: __webpack_require__(58)
+      image: __webpack_require__(52)
     }
   ]
 }
@@ -121,14 +121,14 @@ module.exports = {
 
 /***/ }),
 
-/***/ 57:
+/***/ 51:
 /***/ (function(module, exports) {
 
 module.exports = {srcSet:"/static/portfolio/logo-720-f1a85f4080743c7a87bb9ae5d2510c7d.jpg"+" 720w"+","+"/static/portfolio/logo-1424-d8d1b50bf5534eccaf493a347d094e33.jpg"+" 1424w",images:[{path:"/static/portfolio/logo-720-f1a85f4080743c7a87bb9ae5d2510c7d.jpg",width:720,height:397},{path:"/static/portfolio/logo-1424-d8d1b50bf5534eccaf493a347d094e33.jpg",width:1424,height:786}],src:"/static/portfolio/logo-720-f1a85f4080743c7a87bb9ae5d2510c7d.jpg",toString:function(){return "/static/portfolio/logo-720-f1a85f4080743c7a87bb9ae5d2510c7d.jpg"},placeholder: undefined,width:720,height:397};
 
 /***/ }),
 
-/***/ 58:
+/***/ 52:
 /***/ (function(module, exports) {
 
 module.exports = {srcSet:"/static/portfolio/nad-720-1f861b4fe1c9c28a9db76100f212356d.jpg"+" 720w"+","+"/static/portfolio/nad-1440-f3ab9ce7113706eb4af68fab9f170865.jpg"+" 1440w",images:[{path:"/static/portfolio/nad-720-1f861b4fe1c9c28a9db76100f212356d.jpg",width:720,height:390},{path:"/static/portfolio/nad-1440-f3ab9ce7113706eb4af68fab9f170865.jpg",width:1440,height:780}],src:"/static/portfolio/nad-720-1f861b4fe1c9c28a9db76100f212356d.jpg",toString:function(){return "/static/portfolio/nad-720-1f861b4fe1c9c28a9db76100f212356d.jpg"},placeholder: undefined,width:720,height:390};

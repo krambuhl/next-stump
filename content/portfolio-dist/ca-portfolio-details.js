@@ -81,47 +81,43 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 86);
+/******/ 	return __webpack_require__(__webpack_require__.s = 37);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ 8:
+/***/ 2:
 /***/ (function(module, exports) {
 
 module.exports = {
-  slug: 'webtrends-design-lab',
-  title: 'Webtrends Design Lab',
-  year: 2012,
-  company: 'Webtrends',
-  companyHref: 'https://www.webtrends.com/',
-  projectHref: undefined,
+  slug: 'ca-portfolio',
+  title: 'CA Portfolio Application',
+  year: 2014,
+  company: 'John McNeil Studio',
+  companyHref: 'http://www.johnmcneilstudio.com/',
+  projectHref: null
 }
 
 
 /***/ }),
 
-/***/ 86:
+/***/ 37:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = {
-  ...__webpack_require__(8),
+  ...__webpack_require__(2),
   projectImages: [
     {
-      alt: 'Telegraph.co.uk streams demo',
-      image: __webpack_require__(87)
+      alt: 'Application landing page',
+      image: __webpack_require__(38)
     },
     {
-      alt: 'Motorcycle USA streams demo',
-      image: __webpack_require__(88)
+      alt: 'DevOps landing page',
+      image: __webpack_require__(39)
     },
     {
-      alt: 'MSN dashboard',
-      image: __webpack_require__(89)
-    },
-    {
-      alt: 'Red Bull dashboard',
-      image: __webpack_require__(90)
+      alt: 'Portfolio sales book',
+      image: __webpack_require__(40)
     }
   ]
 }
@@ -129,31 +125,24 @@ module.exports = {
 
 /***/ }),
 
-/***/ 87:
+/***/ 38:
 /***/ (function(module, exports) {
 
-module.exports = {srcSet:"/static/portfolio/stream-telegraph-720-c975ec681de0cd1d5fd3f7f6bb7e38db.jpg"+" 720w"+","+"/static/portfolio/stream-telegraph-730-ecfb070a4933b17e4d3767862a558aed.jpg"+" 730w",images:[{path:"/static/portfolio/stream-telegraph-720-c975ec681de0cd1d5fd3f7f6bb7e38db.jpg",width:720,height:404},{path:"/static/portfolio/stream-telegraph-730-ecfb070a4933b17e4d3767862a558aed.jpg",width:730,height:410}],src:"/static/portfolio/stream-telegraph-720-c975ec681de0cd1d5fd3f7f6bb7e38db.jpg",toString:function(){return "/static/portfolio/stream-telegraph-720-c975ec681de0cd1d5fd3f7f6bb7e38db.jpg"},placeholder: undefined,width:720,height:404};
+module.exports = {srcSet:"/static/portfolio/home-720-3574a0dafa3f129f4c513968e0d7491c.jpg"+" 720w"+","+"/static/portfolio/home-1423-251f3d67bbd9a5ea183e504863f7108f.jpg"+" 1423w",images:[{path:"/static/portfolio/home-720-3574a0dafa3f129f4c513968e0d7491c.jpg",width:720,height:398},{path:"/static/portfolio/home-1423-251f3d67bbd9a5ea183e504863f7108f.jpg",width:1423,height:786}],src:"/static/portfolio/home-720-3574a0dafa3f129f4c513968e0d7491c.jpg",toString:function(){return "/static/portfolio/home-720-3574a0dafa3f129f4c513968e0d7491c.jpg"},placeholder: undefined,width:720,height:398};
 
 /***/ }),
 
-/***/ 88:
+/***/ 39:
 /***/ (function(module, exports) {
 
-module.exports = {srcSet:"/static/portfolio/stream-musa-720-1fd2c806eef52ec4c9a6cc40ebfbf795.jpg"+" 720w"+","+"/static/portfolio/stream-musa-768-34e4a031b8a0f64afbc76df9ec7ec582.jpg"+" 768w",images:[{path:"/static/portfolio/stream-musa-720-1fd2c806eef52ec4c9a6cc40ebfbf795.jpg",width:720,height:405},{path:"/static/portfolio/stream-musa-768-34e4a031b8a0f64afbc76df9ec7ec582.jpg",width:768,height:432}],src:"/static/portfolio/stream-musa-720-1fd2c806eef52ec4c9a6cc40ebfbf795.jpg",toString:function(){return "/static/portfolio/stream-musa-720-1fd2c806eef52ec4c9a6cc40ebfbf795.jpg"},placeholder: undefined,width:720,height:405};
+module.exports = {srcSet:"/static/portfolio/devops-720-b0122836ef83e8b8393d20d0990055aa.jpg"+" 720w"+","+"/static/portfolio/devops-1440-39b61f691d7aaaa92552ee5e800a4549.jpg"+" 1440w",images:[{path:"/static/portfolio/devops-720-b0122836ef83e8b8393d20d0990055aa.jpg",width:720,height:401},{path:"/static/portfolio/devops-1440-39b61f691d7aaaa92552ee5e800a4549.jpg",width:1440,height:801}],src:"/static/portfolio/devops-720-b0122836ef83e8b8393d20d0990055aa.jpg",toString:function(){return "/static/portfolio/devops-720-b0122836ef83e8b8393d20d0990055aa.jpg"},placeholder: undefined,width:720,height:401};
 
 /***/ }),
 
-/***/ 89:
+/***/ 40:
 /***/ (function(module, exports) {
 
-module.exports = {srcSet:"/static/portfolio/msn-720-821216bf7f4463f30df506caf17a3a02.jpg"+" 720w"+","+"/static/portfolio/msn-730-3ae9a83ec53c37884c9fa4a63e2ad94b.jpg"+" 730w",images:[{path:"/static/portfolio/msn-720-821216bf7f4463f30df506caf17a3a02.jpg",width:720,height:404},{path:"/static/portfolio/msn-730-3ae9a83ec53c37884c9fa4a63e2ad94b.jpg",width:730,height:410}],src:"/static/portfolio/msn-720-821216bf7f4463f30df506caf17a3a02.jpg",toString:function(){return "/static/portfolio/msn-720-821216bf7f4463f30df506caf17a3a02.jpg"},placeholder: undefined,width:720,height:404};
-
-/***/ }),
-
-/***/ 90:
-/***/ (function(module, exports) {
-
-module.exports = {srcSet:"/static/portfolio/redbull-720-c7b5d6ed85ccb051b1f455acf7a937ee.jpg"+" 720w"+","+"/static/portfolio/redbull-730-7c4f726cc107335342a0254901a07cc9.jpg"+" 730w",images:[{path:"/static/portfolio/redbull-720-c7b5d6ed85ccb051b1f455acf7a937ee.jpg",width:720,height:404},{path:"/static/portfolio/redbull-730-7c4f726cc107335342a0254901a07cc9.jpg",width:730,height:410}],src:"/static/portfolio/redbull-720-c7b5d6ed85ccb051b1f455acf7a937ee.jpg",toString:function(){return "/static/portfolio/redbull-720-c7b5d6ed85ccb051b1f455acf7a937ee.jpg"},placeholder: undefined,width:720,height:404};
+module.exports = {srcSet:"/static/portfolio/book-720-1c431a4c3a63f4742f6f232ea82df6fb.jpg"+" 720w"+","+"/static/portfolio/book-1440-4d7845b4189d0d7efa581e0a00485bc3.jpg"+" 1440w",images:[{path:"/static/portfolio/book-720-1c431a4c3a63f4742f6f232ea82df6fb.jpg",width:720,height:450},{path:"/static/portfolio/book-1440-4d7845b4189d0d7efa581e0a00485bc3.jpg",width:1440,height:900}],src:"/static/portfolio/book-720-1c431a4c3a63f4742f6f232ea82df6fb.jpg",toString:function(){return "/static/portfolio/book-720-1c431a4c3a63f4742f6f232ea82df6fb.jpg"},placeholder: undefined,width:720,height:450};
 
 /***/ })
 

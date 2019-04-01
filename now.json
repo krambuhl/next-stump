@@ -1,6 +1,10 @@
 {
   "name": "next-stump",
   "version": 2,
+  "alias": "stumptownbear.com",
+  "env": {
+    "MAILGUN_API_KEY": "@mailgun-api-key"
+  },
   "builds": [
     { "src": "send-email.js", "use": "@now/node" },
     { "src": "package.json", "use": "@now/next" }

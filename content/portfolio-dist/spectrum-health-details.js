@@ -81,43 +81,43 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 43);
+/******/ 	return __webpack_require__(__webpack_require__.s = 74);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ 2:
+/***/ 5:
 /***/ (function(module, exports) {
 
 module.exports = {
-  slug: 'ca-portfolio',
-  title: 'CA Portfolio Application',
-  year: 2014,
-  company: 'John McNeil Studio',
-  companyHref: 'http://www.johnmcneilstudio.com/',
-  projectHref: null
+  slug: 'spectrum-health',
+  title: 'Spectrum Health',
+  year: 2016,
+  company: 'ConnectiveDX',
+  companyHref: 'https://www.connectivedx.com/',
+  projectHref: 'http://www.spectrumhealth.org/',
 }
 
 
 /***/ }),
 
-/***/ 43:
+/***/ 74:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = {
-  ...__webpack_require__(2),
+  ...__webpack_require__(5),
   projectImages: [
     {
-      alt: 'Application landing page',
-      image: __webpack_require__(44)
+      alt: 'Homepage',
+      image: __webpack_require__(75)
     },
     {
-      alt: 'DevOps landing page',
-      image: __webpack_require__(45)
+      alt: 'Search application',
+      image: __webpack_require__(76)
     },
     {
-      alt: 'Portfolio sales book',
-      image: __webpack_require__(46)
+      alt: 'Events page',
+      image: __webpack_require__(77)
     }
   ]
 }
@@ -125,24 +125,24 @@ module.exports = {
 
 /***/ }),
 
-/***/ 44:
+/***/ 75:
 /***/ (function(module, exports) {
 
-module.exports = {srcSet:"/static/portfolio/home-720-3574a0dafa3f129f4c513968e0d7491c.jpg"+" 720w"+","+"/static/portfolio/home-1423-251f3d67bbd9a5ea183e504863f7108f.jpg"+" 1423w",images:[{path:"/static/portfolio/home-720-3574a0dafa3f129f4c513968e0d7491c.jpg",width:720,height:398},{path:"/static/portfolio/home-1423-251f3d67bbd9a5ea183e504863f7108f.jpg",width:1423,height:786}],src:"/static/portfolio/home-720-3574a0dafa3f129f4c513968e0d7491c.jpg",toString:function(){return "/static/portfolio/home-720-3574a0dafa3f129f4c513968e0d7491c.jpg"},placeholder: undefined,width:720,height:398};
+module.exports = {srcSet:"/static/portfolio/home-720-79314fddec6e3c3d393091e6cd5c8681.jpg"+" 720w"+","+"/static/portfolio/home-1440-c021c8361a5b95ef0a56304086f6dd28.jpg"+" 1440w",images:[{path:"/static/portfolio/home-720-79314fddec6e3c3d393091e6cd5c8681.jpg",width:720,height:2439},{path:"/static/portfolio/home-1440-c021c8361a5b95ef0a56304086f6dd28.jpg",width:1440,height:4878}],src:"/static/portfolio/home-720-79314fddec6e3c3d393091e6cd5c8681.jpg",toString:function(){return "/static/portfolio/home-720-79314fddec6e3c3d393091e6cd5c8681.jpg"},placeholder: undefined,width:720,height:2439};
 
 /***/ }),
 
-/***/ 45:
+/***/ 76:
 /***/ (function(module, exports) {
 
-module.exports = {srcSet:"/static/portfolio/devops-720-b0122836ef83e8b8393d20d0990055aa.jpg"+" 720w"+","+"/static/portfolio/devops-1440-39b61f691d7aaaa92552ee5e800a4549.jpg"+" 1440w",images:[{path:"/static/portfolio/devops-720-b0122836ef83e8b8393d20d0990055aa.jpg",width:720,height:401},{path:"/static/portfolio/devops-1440-39b61f691d7aaaa92552ee5e800a4549.jpg",width:1440,height:801}],src:"/static/portfolio/devops-720-b0122836ef83e8b8393d20d0990055aa.jpg",toString:function(){return "/static/portfolio/devops-720-b0122836ef83e8b8393d20d0990055aa.jpg"},placeholder: undefined,width:720,height:401};
+module.exports = {srcSet:"/static/portfolio/search-720-396e5089c7ae53721b0731819a0e6e98.jpg"+" 720w"+","+"/static/portfolio/search-1440-d061243d24aa35d4dc5caea55b7916ed.jpg"+" 1440w",images:[{path:"/static/portfolio/search-720-396e5089c7ae53721b0731819a0e6e98.jpg",width:720,height:1097},{path:"/static/portfolio/search-1440-d061243d24aa35d4dc5caea55b7916ed.jpg",width:1440,height:2194}],src:"/static/portfolio/search-720-396e5089c7ae53721b0731819a0e6e98.jpg",toString:function(){return "/static/portfolio/search-720-396e5089c7ae53721b0731819a0e6e98.jpg"},placeholder: undefined,width:720,height:1097};
 
 /***/ }),
 
-/***/ 46:
+/***/ 77:
 /***/ (function(module, exports) {
 
-module.exports = {srcSet:"/static/portfolio/book-720-1c431a4c3a63f4742f6f232ea82df6fb.jpg"+" 720w"+","+"/static/portfolio/book-1440-4d7845b4189d0d7efa581e0a00485bc3.jpg"+" 1440w",images:[{path:"/static/portfolio/book-720-1c431a4c3a63f4742f6f232ea82df6fb.jpg",width:720,height:450},{path:"/static/portfolio/book-1440-4d7845b4189d0d7efa581e0a00485bc3.jpg",width:1440,height:900}],src:"/static/portfolio/book-720-1c431a4c3a63f4742f6f232ea82df6fb.jpg",toString:function(){return "/static/portfolio/book-720-1c431a4c3a63f4742f6f232ea82df6fb.jpg"},placeholder: undefined,width:720,height:450};
+module.exports = {srcSet:"/static/portfolio/events-720-1658f4c1c5f48eefb426165a98801cf8.jpg"+" 720w"+","+"/static/portfolio/events-1440-aad8f179c294baa1379fdcafbc21b2d4.jpg"+" 1440w",images:[{path:"/static/portfolio/events-720-1658f4c1c5f48eefb426165a98801cf8.jpg",width:720,height:1789},{path:"/static/portfolio/events-1440-aad8f179c294baa1379fdcafbc21b2d4.jpg",width:1440,height:3578}],src:"/static/portfolio/events-720-1658f4c1c5f48eefb426165a98801cf8.jpg",toString:function(){return "/static/portfolio/events-720-1658f4c1c5f48eefb426165a98801cf8.jpg"},placeholder: undefined,width:720,height:1789};
 
 /***/ })
 

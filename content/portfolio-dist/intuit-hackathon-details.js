@@ -81,43 +81,47 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 71);
+/******/ 	return __webpack_require__(__webpack_require__.s = 45);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ 10:
+/***/ 1:
 /***/ (function(module, exports) {
 
 module.exports = {
-  slug: 'polycom',
-  title: 'Polycom Defy Distance',
-  year: 2014,
-  company: 'John McNeil Studio',
-  companyHref: 'http://www.johnmcneilstudio.com/',
-  projectHref: null
+  slug: 'intuit-hackathon',
+  title: 'Intuit Hackathon',
+  year: 2019,
+  company: 'Turn',
+  companyHref: 'https://turnwith.us/',
+  projectHref: 'https://www.smallbizhack.com/'
 }
 
 
 /***/ }),
 
-/***/ 71:
+/***/ 45:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = {
-  ...__webpack_require__(10),
+  ...__webpack_require__(1),
   projectImages: [
     {
-      alt: 'Landing section',
-      image: __webpack_require__(72)
+      alt: 'Landing Page',
+      image: __webpack_require__(46)
     },
     {
-      alt: 'CEO user story section',
-      image: __webpack_require__(73)
+      alt: 'Location Information',
+      image: __webpack_require__(47)
     },
     {
-      alt: 'IT user story section',
-      image: __webpack_require__(74)
+      alt: 'Location Getting Started',
+      image: __webpack_require__(48)
+    },
+    {
+      alt: 'Location Wrapup',
+      image: __webpack_require__(49)
     }
   ]
 }
@@ -125,24 +129,31 @@ module.exports = {
 
 /***/ }),
 
-/***/ 72:
+/***/ 46:
 /***/ (function(module, exports) {
 
-module.exports = {srcSet:"/static/portfolio/defy-distance-1-720-620e4771881fd12f8a8aef70fa8ddc57.jpg"+" 720w"+","+"/static/portfolio/defy-distance-1-768-102deea731afa11f54086a121b0dd3b8.jpg"+" 768w",images:[{path:"/static/portfolio/defy-distance-1-720-620e4771881fd12f8a8aef70fa8ddc57.jpg",width:720,height:369},{path:"/static/portfolio/defy-distance-1-768-102deea731afa11f54086a121b0dd3b8.jpg",width:768,height:394}],src:"/static/portfolio/defy-distance-1-720-620e4771881fd12f8a8aef70fa8ddc57.jpg",toString:function(){return "/static/portfolio/defy-distance-1-720-620e4771881fd12f8a8aef70fa8ddc57.jpg"},placeholder: undefined,width:720,height:369};
+module.exports = {srcSet:"/static/portfolio/landing-720-f4f8eb434bd3db31ad99def43d85e4c0.jpg"+" 720w"+","+"/static/portfolio/landing-1440-49cf855bbc7c8cb414ece762fc4c1580.jpg"+" 1440w",images:[{path:"/static/portfolio/landing-720-f4f8eb434bd3db31ad99def43d85e4c0.jpg",width:720,height:626},{path:"/static/portfolio/landing-1440-49cf855bbc7c8cb414ece762fc4c1580.jpg",width:1440,height:1252}],src:"/static/portfolio/landing-720-f4f8eb434bd3db31ad99def43d85e4c0.jpg",toString:function(){return "/static/portfolio/landing-720-f4f8eb434bd3db31ad99def43d85e4c0.jpg"},placeholder: undefined,width:720,height:626};
 
 /***/ }),
 
-/***/ 73:
+/***/ 47:
 /***/ (function(module, exports) {
 
-module.exports = {srcSet:"/static/portfolio/defy-distance-2-720-bdad7a21ef4b895f99d903773accf954.jpg"+" 720w"+","+"/static/portfolio/defy-distance-2-768-db27836ba16488c5b12b2490adf4a7ff.jpg"+" 768w",images:[{path:"/static/portfolio/defy-distance-2-720-bdad7a21ef4b895f99d903773accf954.jpg",width:720,height:600},{path:"/static/portfolio/defy-distance-2-768-db27836ba16488c5b12b2490adf4a7ff.jpg",width:768,height:640}],src:"/static/portfolio/defy-distance-2-720-bdad7a21ef4b895f99d903773accf954.jpg",toString:function(){return "/static/portfolio/defy-distance-2-720-bdad7a21ef4b895f99d903773accf954.jpg"},placeholder: undefined,width:720,height:600};
+module.exports = {srcSet:"/static/portfolio/location-720-889e0d202ec64048b7cffbc0e56d4054.jpg"+" 720w"+","+"/static/portfolio/location-1440-992afb7a7d81fa3d45b4468dc2209ebf.jpg"+" 1440w",images:[{path:"/static/portfolio/location-720-889e0d202ec64048b7cffbc0e56d4054.jpg",width:720,height:3470},{path:"/static/portfolio/location-1440-992afb7a7d81fa3d45b4468dc2209ebf.jpg",width:1440,height:6939}],src:"/static/portfolio/location-720-889e0d202ec64048b7cffbc0e56d4054.jpg",toString:function(){return "/static/portfolio/location-720-889e0d202ec64048b7cffbc0e56d4054.jpg"},placeholder: undefined,width:720,height:3470};
 
 /***/ }),
 
-/***/ 74:
+/***/ 48:
 /***/ (function(module, exports) {
 
-module.exports = {srcSet:"/static/portfolio/defy-distance-3-720-4234e78f7907c7d7abf58027a9c99dee.jpg"+" 720w"+","+"/static/portfolio/defy-distance-3-768-2c156616d52df3a47062dfcbc6936633.jpg"+" 768w",images:[{path:"/static/portfolio/defy-distance-3-720-4234e78f7907c7d7abf58027a9c99dee.jpg",width:720,height:506},{path:"/static/portfolio/defy-distance-3-768-2c156616d52df3a47062dfcbc6936633.jpg",width:768,height:540}],src:"/static/portfolio/defy-distance-3-720-4234e78f7907c7d7abf58027a9c99dee.jpg",toString:function(){return "/static/portfolio/defy-distance-3-720-4234e78f7907c7d7abf58027a9c99dee.jpg"},placeholder: undefined,width:720,height:506};
+module.exports = {srcSet:"/static/portfolio/getting-started-720-2ea1c36acf3375b85b450bb2403d1036.jpg"+" 720w"+","+"/static/portfolio/getting-started-1440-afa3fc1a594930c2e68c9b01407f5d98.jpg"+" 1440w",images:[{path:"/static/portfolio/getting-started-720-2ea1c36acf3375b85b450bb2403d1036.jpg",width:720,height:1131},{path:"/static/portfolio/getting-started-1440-afa3fc1a594930c2e68c9b01407f5d98.jpg",width:1440,height:2262}],src:"/static/portfolio/getting-started-720-2ea1c36acf3375b85b450bb2403d1036.jpg",toString:function(){return "/static/portfolio/getting-started-720-2ea1c36acf3375b85b450bb2403d1036.jpg"},placeholder: undefined,width:720,height:1131};
+
+/***/ }),
+
+/***/ 49:
+/***/ (function(module, exports) {
+
+module.exports = {srcSet:"/static/portfolio/wrapup-720-e822e44245cffb85c4439f9c7d82387d.jpg"+" 720w"+","+"/static/portfolio/wrapup-1440-31a6e9606df2f861860938ee2bbc49d7.jpg"+" 1440w",images:[{path:"/static/portfolio/wrapup-720-e822e44245cffb85c4439f9c7d82387d.jpg",width:720,height:381},{path:"/static/portfolio/wrapup-1440-31a6e9606df2f861860938ee2bbc49d7.jpg",width:1440,height:763}],src:"/static/portfolio/wrapup-720-e822e44245cffb85c4439f9c7d82387d.jpg",toString:function(){return "/static/portfolio/wrapup-720-e822e44245cffb85c4439f9c7d82387d.jpg"},placeholder: undefined,width:720,height:381};
 
 /***/ })
 

@@ -32,6 +32,24 @@
   }
 }
 
+.feedback {
+  display: block;
+  padding: 0.25em;
+  margin-bottom: 1em;
+  width: 100%;
+  font-size: 0.8em
+}
+
+.success {
+  background-color: var(--color-green);
+  color: var(--color-white);
+}
+
+.error {
+  background-color: var(--color-red);
+  color: var(--color-white);
+}
+
 .message {
   flex: 1 100%;
   margin-top: 1em;

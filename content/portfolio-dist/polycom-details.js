@@ -81,43 +81,28 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 64);
+/******/ 	return __webpack_require__(__webpack_require__.s = 65);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ 6:
-/***/ (function(module, exports) {
-
-module.exports = {
-  slug: 'keysight',
-  title: 'Keysight Technologies',
-  year: 2016,
-  company: 'ConnectiveDX',
-  companyHref: 'https://www.connectivedx.com/',
-  projectHref: 'https://www.keysight.com/us/en/software/application-sw.html',
-}
-
-
-/***/ }),
-
-/***/ 64:
+/***/ 65:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = {
-  ...__webpack_require__(6),
+  ...__webpack_require__(66),
   projectImages: [
     {
-      alt: 'Product bundle page',
-      image: __webpack_require__(65)
-    },
-    {
-      alt: 'Product family page',
-      image: __webpack_require__(66)
-    },
-    {
-      alt: 'Product family overview page',
+      alt: 'Landing section',
       image: __webpack_require__(67)
+    },
+    {
+      alt: 'CEO user story section',
+      image: __webpack_require__(68)
+    },
+    {
+      alt: 'IT user story section',
+      image: __webpack_require__(69)
     }
   ]
 }
@@ -125,24 +110,39 @@ module.exports = {
 
 /***/ }),
 
-/***/ 65:
-/***/ (function(module, exports) {
-
-module.exports = {srcSet:"/static/portfolio/bundle-720-dbe3ba6097d3d0a58f8122fab65d3af3.jpg"+" 720w"+","+"/static/portfolio/bundle-1440-1a0cc377a00a6ebda3db66adef7390d2.jpg"+" 1440w",images:[{path:"/static/portfolio/bundle-720-dbe3ba6097d3d0a58f8122fab65d3af3.jpg",width:720,height:1287},{path:"/static/portfolio/bundle-1440-1a0cc377a00a6ebda3db66adef7390d2.jpg",width:1440,height:2574}],src:"/static/portfolio/bundle-720-dbe3ba6097d3d0a58f8122fab65d3af3.jpg",toString:function(){return "/static/portfolio/bundle-720-dbe3ba6097d3d0a58f8122fab65d3af3.jpg"},placeholder: undefined,width:720,height:1287};
-
-/***/ }),
-
 /***/ 66:
 /***/ (function(module, exports) {
 
-module.exports = {srcSet:"/static/portfolio/family-720-cbd08dbf1f42096f5ede9dbe8bcb0108.jpg"+" 720w"+","+"/static/portfolio/family-1440-feb5fcc47ec62f0365e937071fa46d87.jpg"+" 1440w",images:[{path:"/static/portfolio/family-720-cbd08dbf1f42096f5ede9dbe8bcb0108.jpg",width:720,height:2080},{path:"/static/portfolio/family-1440-feb5fcc47ec62f0365e937071fa46d87.jpg",width:1440,height:4160}],src:"/static/portfolio/family-720-cbd08dbf1f42096f5ede9dbe8bcb0108.jpg",toString:function(){return "/static/portfolio/family-720-cbd08dbf1f42096f5ede9dbe8bcb0108.jpg"},placeholder: undefined,width:720,height:2080};
+module.exports = {
+  slug: 'polycom',
+  title: 'Polycom Defy Distance',
+  year: 2014,
+  company: 'John McNeil Studio',
+  companyHref: 'http://www.johnmcneilstudio.com/',
+  projectHref: null
+}
+
 
 /***/ }),
 
 /***/ 67:
 /***/ (function(module, exports) {
 
-module.exports = {srcSet:"/static/portfolio/overview-720-f8d689a093753aa0a47565ac16e32a5a.jpg"+" 720w"+","+"/static/portfolio/overview-1440-8fc32a10ad6cb39e37bc42b7f99f00aa.jpg"+" 1440w",images:[{path:"/static/portfolio/overview-720-f8d689a093753aa0a47565ac16e32a5a.jpg",width:720,height:1486},{path:"/static/portfolio/overview-1440-8fc32a10ad6cb39e37bc42b7f99f00aa.jpg",width:1440,height:2972}],src:"/static/portfolio/overview-720-f8d689a093753aa0a47565ac16e32a5a.jpg",toString:function(){return "/static/portfolio/overview-720-f8d689a093753aa0a47565ac16e32a5a.jpg"},placeholder: undefined,width:720,height:1486};
+module.exports = {srcSet:"/static/portfolio/defy-distance-1-720-620e4771881fd12f8a8aef70fa8ddc57.jpg"+" 720w"+","+"/static/portfolio/defy-distance-1-768-102deea731afa11f54086a121b0dd3b8.jpg"+" 768w",images:[{path:"/static/portfolio/defy-distance-1-720-620e4771881fd12f8a8aef70fa8ddc57.jpg",width:720,height:369},{path:"/static/portfolio/defy-distance-1-768-102deea731afa11f54086a121b0dd3b8.jpg",width:768,height:394}],src:"/static/portfolio/defy-distance-1-720-620e4771881fd12f8a8aef70fa8ddc57.jpg",toString:function(){return "/static/portfolio/defy-distance-1-720-620e4771881fd12f8a8aef70fa8ddc57.jpg"},placeholder: undefined,width:720,height:369};
+
+/***/ }),
+
+/***/ 68:
+/***/ (function(module, exports) {
+
+module.exports = {srcSet:"/static/portfolio/defy-distance-2-720-bdad7a21ef4b895f99d903773accf954.jpg"+" 720w"+","+"/static/portfolio/defy-distance-2-768-db27836ba16488c5b12b2490adf4a7ff.jpg"+" 768w",images:[{path:"/static/portfolio/defy-distance-2-720-bdad7a21ef4b895f99d903773accf954.jpg",width:720,height:600},{path:"/static/portfolio/defy-distance-2-768-db27836ba16488c5b12b2490adf4a7ff.jpg",width:768,height:640}],src:"/static/portfolio/defy-distance-2-720-bdad7a21ef4b895f99d903773accf954.jpg",toString:function(){return "/static/portfolio/defy-distance-2-720-bdad7a21ef4b895f99d903773accf954.jpg"},placeholder: undefined,width:720,height:600};
+
+/***/ }),
+
+/***/ 69:
+/***/ (function(module, exports) {
+
+module.exports = {srcSet:"/static/portfolio/defy-distance-3-720-4234e78f7907c7d7abf58027a9c99dee.jpg"+" 720w"+","+"/static/portfolio/defy-distance-3-768-2c156616d52df3a47062dfcbc6936633.jpg"+" 768w",images:[{path:"/static/portfolio/defy-distance-3-720-4234e78f7907c7d7abf58027a9c99dee.jpg",width:720,height:506},{path:"/static/portfolio/defy-distance-3-768-2c156616d52df3a47062dfcbc6936633.jpg",width:768,height:540}],src:"/static/portfolio/defy-distance-3-720-4234e78f7907c7d7abf58027a9c99dee.jpg",toString:function(){return "/static/portfolio/defy-distance-3-720-4234e78f7907c7d7abf58027a9c99dee.jpg"},placeholder: undefined,width:720,height:506};
 
 /***/ })
 

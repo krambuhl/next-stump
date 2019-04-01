@@ -81,45 +81,58 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 62);
+/******/ 	return __webpack_require__(__webpack_require__.s = 70);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ 3:
-/***/ (function(module, exports) {
-
-module.exports = {
-  slug: 'juniper-rap-battle',
-  title: 'Juniper Data Center Rap Battle',
-  year: 2014,
-  company: 'John McNeil Studio',
-  projectHref: undefined,
-}
-
-
-/***/ }),
-
-/***/ 62:
+/***/ 70:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = {
-  ...__webpack_require__(3),
+  ...__webpack_require__(71),
   projectImages: [
     {
-      alt: 'Landing page',
-      image: __webpack_require__(63)
-    }
+      alt: 'Southridge Tech Dashboard',
+      image: __webpack_require__(72)
+    },
+    {
+
+      alt: 'Southridge Tech Mentions',
+      image: __webpack_require__(73)
+    },
   ]
 }
 
 
 /***/ }),
 
-/***/ 63:
+/***/ 71:
 /***/ (function(module, exports) {
 
-module.exports = {srcSet:"/static/portfolio/website-720-b9c739187dbceb596655919dc43b8eea.jpg"+" 720w"+","+"/static/portfolio/website-1421-4033f3c369f0920858be3f82a4438a12.jpg"+" 1421w",images:[{path:"/static/portfolio/website-720-b9c739187dbceb596655919dc43b8eea.jpg",width:720,height:1020},{path:"/static/portfolio/website-1421-4033f3c369f0920858be3f82a4438a12.jpg",width:1421,height:2013}],src:"/static/portfolio/website-720-b9c739187dbceb596655919dc43b8eea.jpg",toString:function(){return "/static/portfolio/website-720-b9c739187dbceb596655919dc43b8eea.jpg"},placeholder: undefined,width:720,height:1020};
+module.exports = {
+  slug: 'southridge-tech',
+  title: 'Southridge Tech Data Visualization',
+  year: 2012,
+  company: 'Webtrends',
+  companyHref: 'https://www.webtrends.com/',
+  projectHref: undefined,
+}
+
+
+/***/ }),
+
+/***/ 72:
+/***/ (function(module, exports) {
+
+module.exports = {srcSet:"/static/portfolio/southridge-tech-1-720-37fd1f9a40a5337399b908d5a626e534.jpg"+" 720w"+","+"/static/portfolio/southridge-tech-1-1440-8586eab2c74fdd833fb3282257e9dd83.jpg"+" 1440w",images:[{path:"/static/portfolio/southridge-tech-1-720-37fd1f9a40a5337399b908d5a626e534.jpg",width:720,height:382},{path:"/static/portfolio/southridge-tech-1-1440-8586eab2c74fdd833fb3282257e9dd83.jpg",width:1440,height:764}],src:"/static/portfolio/southridge-tech-1-720-37fd1f9a40a5337399b908d5a626e534.jpg",toString:function(){return "/static/portfolio/southridge-tech-1-720-37fd1f9a40a5337399b908d5a626e534.jpg"},placeholder: undefined,width:720,height:382};
+
+/***/ }),
+
+/***/ 73:
+/***/ (function(module, exports) {
+
+module.exports = {srcSet:"/static/portfolio/southridge-tech-2-720-f514792f84a9b52b1dbd3ba734c73daf.jpg"+" 720w"+","+"/static/portfolio/southridge-tech-2-1440-bbcaa0ebd87d71e1fe89b39edba9117f.jpg"+" 1440w",images:[{path:"/static/portfolio/southridge-tech-2-720-f514792f84a9b52b1dbd3ba734c73daf.jpg",width:720,height:386},{path:"/static/portfolio/southridge-tech-2-1440-bbcaa0ebd87d71e1fe89b39edba9117f.jpg",width:1440,height:772}],src:"/static/portfolio/southridge-tech-2-720-f514792f84a9b52b1dbd3ba734c73daf.jpg",toString:function(){return "/static/portfolio/southridge-tech-2-720-f514792f84a9b52b1dbd3ba734c73daf.jpg"},placeholder: undefined,width:720,height:386};
 
 /***/ })
 

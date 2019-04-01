@@ -18,6 +18,8 @@
   --color-teal-dark: #007ecc;
   --color-orange: #f6371d;
   --color-yellow: #f7ca39;
+  --color-green: #34b23a;
+  --color-red: #cc3e3e;
 
   /* Uses */
   --color-portfolio: var(--color-teal);

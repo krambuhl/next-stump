@@ -86,16 +86,16 @@
 /************************************************************************/
 /******/ ({
 
-/***/ 5:
+/***/ 0:
 /***/ (function(module, exports) {
 
 module.exports = {
-  slug: 'spectrum-health',
-  title: 'Spectrum Health',
-  year: 2016,
-  company: 'ConnectiveDX',
-  companyHref: 'https://www.connectivedx.com/',
-  projectHref: 'http://www.spectrumhealth.org/',
+  slug: 'trimet',
+  title: 'Trimet.org redesign',
+  year: 2015,
+  company: 'TriMet',
+  companyHref: 'https://trimet.org/',
+  projectHref: 'https://trimet.org/'
 }
 
 
@@ -105,18 +105,18 @@ module.exports = {
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = {
-  ...__webpack_require__(5),
+  ...__webpack_require__(0),
   projectImages: [
     {
-      alt: 'Homepage',
+      alt: 'Transit Tracker',
       image: __webpack_require__(79)
     },
     {
-      alt: 'Search application',
+      alt: 'Trip Planner',
       image: __webpack_require__(80)
     },
     {
-      alt: 'Events page',
+      alt: 'Service Alerts',
       image: __webpack_require__(81)
     }
   ]
@@ -128,21 +128,21 @@ module.exports = {
 /***/ 79:
 /***/ (function(module, exports) {
 
-module.exports = {srcSet:"/static/portfolio/home-720-79314fddec6e3c3d393091e6cd5c8681.jpg"+" 720w"+","+"/static/portfolio/home-1440-c021c8361a5b95ef0a56304086f6dd28.jpg"+" 1440w",images:[{path:"/static/portfolio/home-720-79314fddec6e3c3d393091e6cd5c8681.jpg",width:720,height:2439},{path:"/static/portfolio/home-1440-c021c8361a5b95ef0a56304086f6dd28.jpg",width:1440,height:4878}],src:"/static/portfolio/home-720-79314fddec6e3c3d393091e6cd5c8681.jpg",toString:function(){return "/static/portfolio/home-720-79314fddec6e3c3d393091e6cd5c8681.jpg"},placeholder: undefined,width:720,height:2439};
+module.exports = {srcSet:"/static/portfolio/transit-tracker-720-3fb7aedc1d3ebe8d92be0a9e456e814e.jpg"+" 720w"+","+"/static/portfolio/transit-tracker-1440-1b12fdf372733bd039ef26416193f9ef.jpg"+" 1440w",images:[{path:"/static/portfolio/transit-tracker-720-3fb7aedc1d3ebe8d92be0a9e456e814e.jpg",width:720,height:1558},{path:"/static/portfolio/transit-tracker-1440-1b12fdf372733bd039ef26416193f9ef.jpg",width:1440,height:3116}],src:"/static/portfolio/transit-tracker-720-3fb7aedc1d3ebe8d92be0a9e456e814e.jpg",toString:function(){return "/static/portfolio/transit-tracker-720-3fb7aedc1d3ebe8d92be0a9e456e814e.jpg"},placeholder: undefined,width:720,height:1558};
 
 /***/ }),
 
 /***/ 80:
 /***/ (function(module, exports) {
 
-module.exports = {srcSet:"/static/portfolio/search-720-396e5089c7ae53721b0731819a0e6e98.jpg"+" 720w"+","+"/static/portfolio/search-1440-d061243d24aa35d4dc5caea55b7916ed.jpg"+" 1440w",images:[{path:"/static/portfolio/search-720-396e5089c7ae53721b0731819a0e6e98.jpg",width:720,height:1097},{path:"/static/portfolio/search-1440-d061243d24aa35d4dc5caea55b7916ed.jpg",width:1440,height:2194}],src:"/static/portfolio/search-720-396e5089c7ae53721b0731819a0e6e98.jpg",toString:function(){return "/static/portfolio/search-720-396e5089c7ae53721b0731819a0e6e98.jpg"},placeholder: undefined,width:720,height:1097};
+module.exports = {srcSet:"/static/portfolio/trip-planner-720-d7887619bdbc2bb6dac55e8b942b52a2.jpg"+" 720w"+","+"/static/portfolio/trip-planner-1440-9950a7f2b05879f4ca8f9986e39c4583.jpg"+" 1440w",images:[{path:"/static/portfolio/trip-planner-720-d7887619bdbc2bb6dac55e8b942b52a2.jpg",width:720,height:1744},{path:"/static/portfolio/trip-planner-1440-9950a7f2b05879f4ca8f9986e39c4583.jpg",width:1440,height:3489}],src:"/static/portfolio/trip-planner-720-d7887619bdbc2bb6dac55e8b942b52a2.jpg",toString:function(){return "/static/portfolio/trip-planner-720-d7887619bdbc2bb6dac55e8b942b52a2.jpg"},placeholder: undefined,width:720,height:1744};
 
 /***/ }),
 
 /***/ 81:
 /***/ (function(module, exports) {
 
-module.exports = {srcSet:"/static/portfolio/events-720-1658f4c1c5f48eefb426165a98801cf8.jpg"+" 720w"+","+"/static/portfolio/events-1440-aad8f179c294baa1379fdcafbc21b2d4.jpg"+" 1440w",images:[{path:"/static/portfolio/events-720-1658f4c1c5f48eefb426165a98801cf8.jpg",width:720,height:1789},{path:"/static/portfolio/events-1440-aad8f179c294baa1379fdcafbc21b2d4.jpg",width:1440,height:3578}],src:"/static/portfolio/events-720-1658f4c1c5f48eefb426165a98801cf8.jpg",toString:function(){return "/static/portfolio/events-720-1658f4c1c5f48eefb426165a98801cf8.jpg"},placeholder: undefined,width:720,height:1789};
+module.exports = {srcSet:"/static/portfolio/service-alerts-720-23f22b938a5397629eb40f99689ecb14.jpg"+" 720w"+","+"/static/portfolio/service-alerts-1440-dd13bfd00fe099af4cf7298b03ac9097.jpg"+" 1440w",images:[{path:"/static/portfolio/service-alerts-720-23f22b938a5397629eb40f99689ecb14.jpg",width:720,height:2426},{path:"/static/portfolio/service-alerts-1440-dd13bfd00fe099af4cf7298b03ac9097.jpg",width:1440,height:4852}],src:"/static/portfolio/service-alerts-720-23f22b938a5397629eb40f99689ecb14.jpg",toString:function(){return "/static/portfolio/service-alerts-720-23f22b938a5397629eb40f99689ecb14.jpg"},placeholder: undefined,width:720,height:2426};
 
 /***/ })
 

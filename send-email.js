@@ -22,7 +22,7 @@ app.use(helmet())
 app.use(express.urlencoded({ extended: false }))
 app.use(express.json())
 
-app.post('*', function (req, res) {
+app.post('*',  (req, res) => {
   const { body } = req
   const { name, email, message } = body
 
@@ -38,7 +38,7 @@ app.post('*', function (req, res) {
     text: template(body)
   }
 
-  mailgun.messages().send(data, function (error, body) {
+  mailgun.messages().send(data,  (error, body) => {
     if (error) {
       res.status(500).send(error)
     } else {
@@ -46,7 +46,5 @@ app.post('*', function (req, res) {
     }
   })
 })
-
-app.listen(3001)
 
 module.exports = app
