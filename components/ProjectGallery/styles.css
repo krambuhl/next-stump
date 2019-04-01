@@ -1,8 +1,6 @@
 @import "../../lib/styles/variables/*.css";
 
 .root {
-  margin-top: 4rem;
-
   & > * + * {
     margin-top: 2rem;
 
