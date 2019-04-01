@@ -1,5 +1,3 @@
-@import "../../lib/styles/variables/*.css";
-
 .root {
   margin: auto;
   padding-left: var(--padding-responsive);

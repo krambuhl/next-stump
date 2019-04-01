@@ -1,5 +1,3 @@
-@import "../../lib/styles/variables/*.css";
-
 .root {
   display: flex;
   padding-top: calc(var(--padding-responsive) * 4);

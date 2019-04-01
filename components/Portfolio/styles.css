@@ -1,5 +1,3 @@
-@import "../../lib/styles/variables/*.css";
-
 .root {
   border-top: var(--section-border) solid var(--color-tan-dark);
   align-items: center;

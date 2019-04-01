@@ -13,20 +13,18 @@ const GlobalHeader = ({
 
   return (
     <header className={classList} {...attrs}>
-      <Wrapper>
-        <div className={styles.wrapper}>
-          <div className={styles.logo}>
-            <Link href='/'><a className={styles.logoLink}>
-              <Logo dark={dark} />
-            </a></Link>
-          </div>
+      <Wrapper className={styles.wrapper}>
+        <div className={styles.logo}>
+          <Link href='/'><a className={styles.logoLink}>
+            <Logo dark={dark} />
+          </a></Link>
+        </div>
 
-          <div className={styles.nav}>
-            <ul className={styles.navList}>
-              <li><Link href='/#portfolio'><a className={classnames(styles.navLink, styles.navLink__portfolio)}>Portfolio</a></Link></li>
-              <li><Link href='/#hello'><a className={classnames(styles.navLink, styles.navLink__contact)}>Say Hello</a></Link></li>
-            </ul>
-          </div>
+        <div className={styles.nav}>
+          <ul className={styles.navList}>
+            <li><Link href='/#portfolio'><a className={classnames(styles.navLink, styles.navLink__portfolio)}>Portfolio</a></Link></li>
+            <li><Link href='/#hello'><a className={classnames(styles.navLink, styles.navLink__contact)}>Say Hello</a></Link></li>
+          </ul>
         </div>
       </Wrapper>
     </header>

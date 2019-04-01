@@ -1,7 +1,6 @@
-@import "../../lib/styles/variables/*.css";
-
 .root {
   border-top: var(--section-border) solid var(--color-tan-dark);
+  padding-bottom: calc(var(--padding-responsive) * 2) !important;
   align-items: center;
 
   p {
@@ -11,4 +10,5 @@
 
 .form {
   margin-top: 2em !important;
+  margin-bottom: 2em !important;
 }

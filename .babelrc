@@ -12,7 +12,7 @@
         "alias": {
           "Components": "./components",
           "Tags": "./tags",
-          "Lib": "./lib",
+          "Styles": "./styles",
           "Content": "./content",
           "Pages": "./pages",
           "Static": "./static"

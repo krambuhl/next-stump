@@ -1,4 +1,4 @@
-@import "../../lib/styles/variables/*.css";
+@import "../../lib/styles/variables/breakpoints.css";
 
 .root {
   text-align: left;
@@ -39,7 +39,6 @@
     color: var(--color-beige);
   }
 }
-
 
 .textarea {
   min-height: 12em;

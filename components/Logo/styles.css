@@ -1,4 +1,4 @@
-@import "../../lib/styles/variables/*.css";
+@import "../../lib/styles/variables/breakpoints.css";
 
 .root {
   display: flex;

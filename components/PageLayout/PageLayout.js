@@ -1,6 +1,6 @@
 import React from 'react'
 import classnames from 'classnames'
-import { GlobalHeader } from 'Components'
+import { GlobalFooter, GlobalHeader } from 'Components'
 import styles from './styles.css'
 
 const PageLayout = ({
@@ -21,6 +21,8 @@ const PageLayout = ({
         <div id='content'>
           {children}
         </div>
+
+        <GlobalFooter dark={dark} />
       </div>
     </div>
   )

@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "build:content": "rm -rf static/portfolio && rm -rf lib/portfolio-dist && webpack --config ./webpack-portfolio.config.js",
+    "build:content": "rm -rf static/portfolio && rm -rf content/portfolio-dist && webpack --config ./webpack-portfolio.config.js",
     "deploy": "npm run build:content && now",
     "start": "NODE_ENV=production next"
   },
