@@ -1,6 +1,6 @@
 .root {
   border-top: var(--section-border) solid var(--color-tan-dark);
-  padding-bottom: calc(var(--padding-responsive) * 2) !important;
+  padding-bottom: calc(var(--padding-responsive) * 3) !important;
   align-items: center;
 
   p {

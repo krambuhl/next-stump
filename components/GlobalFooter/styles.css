@@ -8,6 +8,15 @@
   svg {
     fill: var(--color-beige-dark);
   }
+
+  a {
+    &:hover,
+    &:focus {
+      svg {
+        fill: var(--color-black);
+      }
+    }
+  }
 }
 
 .wrapper {
@@ -20,16 +29,26 @@
   svg {
     fill: var(--color-tan);
   }
+
+  a {
+    &:hover,
+    &:focus {
+      svg {
+        fill: var(--color-teal);
+      }
+    }
+  }
 }
 
 .social {
   & > * {
     display: inline-block;
     vertical-align: middle;
+    padding: 0.25em;
   }
 
   & > * + * {
-    margin-left: 0.75em;
+    margin-left: 0.5em;
   }
 
   svg {
