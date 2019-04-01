@@ -1,6 +1,8 @@
 import React from 'react'
 import App, { Container } from 'next/app'
 import Head from 'next/head'
+import Router from 'next/router'
+import withGA from 'next-ga';
 import 'Styles/styles.css'
 
 class AppWrapper extends App {
@@ -29,4 +31,4 @@ class AppWrapper extends App {
   }
 }
 
-export default AppWrapper
+export default withGA('UA-53544312-1', Router)(AppWrapper)
