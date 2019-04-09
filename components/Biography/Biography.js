@@ -22,7 +22,7 @@ const Biography = () => (
 
       <Heading level='h2'>I enjoy</Heading>
 
-      <ul>
+      <ul className={styles.list}>
         <li>Minimalism</li>
         <li>Maximalism</li>
         <li>Mentoring</li>
