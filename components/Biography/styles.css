@@ -1,4 +1,5 @@
 .root {
+  border-bottom: var(--section-border) solid var(--color-tan-dark);
   text-align: center;
 
   p {

@@ -1,4 +1,6 @@
-.root { }
+.root {
+  padding: 4em 0;
+}
 
 .pun {
   border-bottom: 1px solid white;

@@ -15,7 +15,7 @@ class Post extends React.Component {
 
   render () {
     return (
-      <PageLayout>
+      <PageLayout dark={false}>
         <Head>
           <title>Stumptown Bear</title>
         </Head>

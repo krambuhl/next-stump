@@ -1,18 +1,17 @@
 import React from 'react'
 import classnames from 'classnames'
+import { withTheme } from 'Context/ThemeContext'
 import { Wrapper } from 'Components'
 import styles from './styles.css'
 
 const GlobalFooter = ({
-  dark = false,
-  error = false,
-  className,
-  ...attrs
+  themeDark = false,
+  className
 }) => {
-  const classList = classnames(styles.root, { [styles.dark]: dark }, className)
+  const classList = classnames(styles.root, { [styles.dark]: themeDark }, className)
 
   return (
-    <footer className={classList} {...attrs}>
+    <footer className={classList}>
       <Wrapper>
         <div className={styles.wrapper}>
           <div className={styles.social}>
@@ -32,4 +31,4 @@ const GlobalFooter = ({
   )
 }
 
-export default GlobalFooter
+export default withTheme(GlobalFooter)

@@ -1,49 +1,45 @@
 import React from 'react'
 import classnames from 'classnames'
+import ThemeContext from 'Context/ThemeContext'
 import { GlobalFooter, GlobalHeader } from 'Components'
 import styles from './styles.css'
 
 
 class PageLayout extends React.Component {
-  updateBodyTheme (isDark) {
-    document.body.classList[isDark ? 'add' : 'remove']('theme-dark')
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      themeError: props.error,
+      themeDark: props.dark
+    }
   }
 
-  componentDidUpdate () {
-
+  componentDidMount () {
+    document.body.classList[this.props.dark ? 'add' : 'remove']('theme-dark')
   }
 
   render () {
-    const {
-      error = false,
-      dark = false,
-      children
-    } = this.props
+    const { children } = this.props
     const classList = classnames({
-      [styles.error]: error,
-      [styles.dark]: dark
+      [styles.error]: this.state.themeError,
+      [styles.dark]: this.state.themeDark
     })
 
     return (
-      <div className={classList}>
-        <div className={styles.container}>
-          <GlobalHeader
-            className={styles.header}
-            dark={dark}
-            error={error}
-          />
+      <ThemeContext.Provider value={this.state}>
+        <div className={classList}>
+          <div className={styles.container}>
+            <GlobalHeader className={styles.header} />
 
-          <div id='content' className={styles.main}>
-            {children}
+            <div id='content' className={styles.main}>
+              {children}
+            </div>
+
+            <GlobalFooter className={styles.footer} />
           </div>
-
-          <GlobalFooter
-            className={styles.footer}
-            dark={dark}
-            error={error}
-          />
         </div>
-      </div>
+      </ThemeContext.Provider>
     )
   }
 }

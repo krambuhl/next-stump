@@ -1,26 +1,26 @@
 import React from 'react'
 import classnames from 'classnames'
 import Link from 'next/link'
+import { withTheme } from 'Context/ThemeContext'
 import { Logo, Wrapper } from 'Components'
 import styles from './styles.css'
 
 const GlobalHeader = ({
-  dark = false,
-  error = false,
-  className,
-  ...attrs
+  themeDark = false,
+  themeError = false,
+  className
 }) => {
   const classList = classnames(styles.root, {
-    [styles.dark]: dark,
-    [styles.error]: error
+    [styles.dark]: themeDark,
+    [styles.error]: themeError
   }, className)
 
   return (
-    <header className={classList} {...attrs}>
+    <header className={classList}>
       <Wrapper className={styles.wrapper}>
         <div className={styles.logo}>
           <Link href='/'><a className={styles.logoLink}>
-            <Logo dark={dark} />
+            <Logo />
           </a></Link>
         </div>
 
@@ -35,4 +35,4 @@ const GlobalHeader = ({
   )
 }
 
-export default GlobalHeader
+export default withTheme(GlobalHeader)

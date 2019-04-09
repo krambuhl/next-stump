@@ -11,11 +11,11 @@
         ],
         "alias": {
           "Components": "./components",
-          "Tags": "./tags",
-          "Styles": "./styles",
           "Content": "./content",
+          "Context": "./context",
           "Pages": "./pages",
-          "Static": "./static"
+          "Static": "./static",
+          "Styles": "./styles"
         }
       }
     ]
