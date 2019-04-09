@@ -4,6 +4,7 @@ const glob = require('glob')
 const ProgressBarPlugin = require('progress-bar-webpack-plugin')
 const sharpAdaptor = require('responsive-loader/sharp')
 const ImageminPlugin = require('imagemin-webpack-plugin').default
+const ImageminWebpWebpackPlugin = require('imagemin-webp-webpack-plugin')
 
 // grab detail files
 const list =
@@ -37,13 +38,19 @@ module.exports = {
           adapter: sharpAdaptor,
           name: '[name]-[width]-[hash].[ext]',
           outputPath: '../../static/portfolio',
-          publicPath: '/static/portfolio/'
+          publicPath: '/static/portfolio/',
+          format: 'jpg'
         }
       }
     ]
   },
   plugins: [
     new ProgressBarPlugin(),
-    new ImageminPlugin({ test: /\.(jpe?g|png|gif|svg)$/i })
+    new ImageminPlugin({
+      test: /\.(jpeg|jpg|png|gif|svg)$/i,
+      jpegtran: {
+        progressive: true
+      }
+    })
   ]
 }
