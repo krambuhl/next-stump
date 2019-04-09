@@ -1,6 +1,7 @@
 :root {
   /* Neutral */
   --color-black: #000;
+  --color-black-transparent: #000000dd;
   --color-dark: #111;
   --color-white: #fff;
   --color-tan: #e8e1d1;
@@ -15,6 +16,7 @@
   /* Bright */
   --color-blue: #0d38ca;
   --color-teal: #0097ee;
+  --color-teal-transparent: #0097ee60;
   --color-teal-dark: #007ecc;
   --color-orange: #f6371d;
   --color-yellow: #f7ca39;

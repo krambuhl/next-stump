@@ -6,10 +6,14 @@ import styles from './styles.css'
 
 const GlobalHeader = ({
   dark = false,
+  error = false,
   className,
   ...attrs
 }) => {
-  const classList = classnames(styles.root, { [styles.dark]: dark }, className)
+  const classList = classnames(styles.root, {
+    [styles.dark]: dark,
+    [styles.error]: error
+  }, className)
 
   return (
     <header className={classList} {...attrs}>

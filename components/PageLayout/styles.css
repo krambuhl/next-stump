@@ -1,4 +1,6 @@
 .container {
+  display: flex;
+  flex-flow: column;
   min-height: 100vh;
 }
 
@@ -8,7 +10,7 @@
 }
 
 .error > .container {
-  background-color: #0008;
+  background-color: #0009;
 }
 
 .dark {
@@ -19,3 +21,16 @@
 .dark :global(a) {
   color: var(--color-tan);
 }
+
+.header { }
+
+.main {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  flex-grow: 1;
+  text-align: center;
+  width: 100%;
+}
+
+.footer { }

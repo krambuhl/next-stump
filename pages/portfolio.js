@@ -17,14 +17,6 @@ class Post extends React.Component {
     return { activeProject }
   }
 
-  componentDidMount() {
-    document.body.classList.add('dark')
-  }
-
-  componentWillUnmount () {
-    document.body.classList.remove('dark')
-  }
-
   render () {
     const { activeProject } = this.props
 

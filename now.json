@@ -1,7 +1,10 @@
 {
   "name": "next-stump",
   "version": 2,
-  "alias": "stumptownbear.com",
+  "alias": [
+    "stumptownbear.com",
+    "www.stumptownbear.com"
+  ],
   "env": {
     "MAILGUN_API_KEY": "@mailgun-api-key"
   },

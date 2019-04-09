@@ -14,7 +14,21 @@
 }
 
 .dark {
-  background-color: #000;
+  background-color: var(--color-black-transparent);
+}
+
+.error {
+  background-color: transparent;
+}
+
+.error,
+.dark {
+  .logoLink {
+    &:hover,
+    &:active {
+      border-bottom-color: var(--color-tan);
+    }
+  }
 }
 
 .wrapper {
@@ -35,11 +49,33 @@
   }
 }
 
+.navLink,
 .logoLink {
   display: inline-block;
+  padding: calc(var(--padding) * 0.1) var(--padding) calc(var(--padding) * 0);
+  border-bottom: transparent solid 4px;
+
+  @media (--small) {
+    padding: calc(var(--padding) * 0.2) var(--padding) calc(var(--padding) * 0.1);
+  }
+
+  @media (--medium) {
+    padding: calc(var(--padding) * 0.35) var(--padding) calc(var(--padding) * 0.25);
+  }
+
+  @media (--large) {
+    padding: calc(var(--padding) * 0.5) var(--padding) calc(var(--padding) * 0.4);
+  }
+}
+
+.logoLink {
   color: var(--color-black);
   text-decoration: none;
-  padding: calc(var(--padding) * 0.55) var(--padding) calc(var(--padding) * 0.45);
+
+  &:hover,
+  &:active {
+    border-bottom-color: var(--color-black);
+  }
 }
 
 .nav {
@@ -65,11 +101,8 @@
 }
 
 .navLink {
-  display: inline-block;
-  padding: calc(var(--padding) * 0.5) var(--padding);
   text-decoration: none;
   font-weight: 500;
-  border-bottom: transparent solid 4px;
 }
 
 .navLink__portfolio {

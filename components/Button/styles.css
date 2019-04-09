@@ -21,8 +21,9 @@
   }
 
   &:focus {
-    outline: none;
     box-shadow: none;
+    outline: solid var(--color-teal) 2px;
+    outline-offset: 2px;
   }
 
   @media (--medium) {

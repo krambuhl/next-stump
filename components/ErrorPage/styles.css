@@ -1,10 +1,5 @@
-.root {
-  display: flex;
-  align-items: center;
-  width: 100%;
+.root { }
 
-  div {
-    text-align: center;
-    width: 100%;
-  }
+.pun {
+  border-bottom: 1px solid white;
 }
