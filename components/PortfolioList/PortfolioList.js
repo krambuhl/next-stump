@@ -10,6 +10,7 @@ const PortfolioList = ({ portfolioList }) => {
         portfolioList.map(({ slug, title, year, company, thumbnail }) => {
           return (
             <Link
+              prefetch
               key={slug}
               href={`/portfolio?slug=${slug}`}
               as={`/portfolio/${slug}`}

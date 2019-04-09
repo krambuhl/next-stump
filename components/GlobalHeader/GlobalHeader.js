@@ -19,7 +19,7 @@ const GlobalHeader = ({
     <header className={classList}>
       <Wrapper className={styles.wrapper}>
         <div className={styles.logo}>
-          <Link href='/'><a className={styles.logoLink}>
+          <Link prefetch href='/'><a className={styles.logoLink}>
             <Logo />
           </a></Link>
         </div>
