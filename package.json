@@ -8,7 +8,9 @@
     "build": "next build",
     "build:content": "rm -rf static/portfolio && rm -rf content/portfolio-dist && webpack --config ./webpack-portfolio.config.js",
     "deploy": "npm run build:content && now",
-    "start": "NODE_ENV=production next"
+    "start": "NODE_ENV=production next",
+    "storybook": "start-storybook -s ./ -p 3001",
+    "build:storybook": "build-storybook"
   },
   "repository": {
     "type": "git",
@@ -21,7 +23,11 @@
   },
   "homepage": "https://github.com/krambuhl/next-stump#readme",
   "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@storybook/addons": "^5.0.6",
+    "@storybook/react": "^5.0.6",
     "@zeit/next-css": "^1.0.1",
+    "babel-loader": "^8.0.5",
     "babel-plugin-module-resolver": "^3.1.3",
     "glob": "^7.1.3",
     "imagemin-webpack-plugin": "^2.4.2",
@@ -43,6 +49,8 @@
     "webpack-cli": "^3.2.3"
   },
   "dependencies": {
+    "@storybook/addon-a11y": "^5.0.6",
+    "@storybook/addon-viewport": "^5.0.6",
     "classnames": "^2.2.6",
     "cors": "^2.8.5",
     "express": "^4.16.4",

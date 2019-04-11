@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './styles.css'
 
 const ProjectGallery = ({ project }) => {
+  console.log(project)
   return (
     <div className={styles.root}>
       {project.projectImages.map(({ alt, image }) => (

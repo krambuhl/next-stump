@@ -16,7 +16,13 @@ class PageLayout extends React.Component {
   }
 
   componentDidMount () {
-    document.body.classList[this.props.dark ? 'add' : 'remove']('theme-dark')
+    if (this.props.dark) {
+      document.body.classList.add('theme-dark')
+    }
+  }
+
+  componentWillUnmount () {
+    document.body.classList.remove('theme-dark')
   }
 
   render () {
