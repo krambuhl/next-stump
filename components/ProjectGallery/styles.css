@@ -1,6 +1,8 @@
 @import "../../styles/variables/breakpoints.css";
 
 .root {
+  text-align: center;
+
   & > * + * {
     margin-top: 2rem;
 
