@@ -1,6 +1,5 @@
 import React from 'react'
 import classnames from 'classnames'
-// import { } from 'Components'
 import styles from './styles.css'
 
 const ContactForm = ({

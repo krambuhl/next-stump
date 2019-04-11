@@ -11,34 +11,30 @@ import {
 
 const context = require.context('../content/portfolio-dist', false, /\-details\.js/)
 
-class Post extends React.Component {
-  static async getInitialProps ({ query }) {
-    const activeProject = context(`./${query.slug}-details.js`)
-    return { activeProject }
+const PortfolioPage = ({ activeProject }) => {
+  if (!activeProject) {
+    return <ErrorPage statusCode={404} />
   }
 
-  render () {
-    const { activeProject } = this.props
+  return (
+    <PageLayout dark>
+      <Head>
+        <title>{activeProject.title} - Stumptown Bear</title>
+      </Head>
 
-    if (!activeProject) {
-      return <ErrorPage statusCode={404} />
-    }
-
-    return (
-      <PageLayout dark>
-        <Head>
-          <title>{activeProject.title} - Stumptown Bear</title>
-        </Head>
-
-        <Strata>
-          <Wrapper>
-            <ProjectHeader project={activeProject} />
-            <ProjectGallery project={activeProject} />
-          </Wrapper>
-        </Strata>
-      </PageLayout>
-    )
-  }
+      <Strata>
+        <Wrapper>
+          <ProjectHeader project={activeProject} />
+          <ProjectGallery project={activeProject} />
+        </Wrapper>
+      </Strata>
+    </PageLayout>
+  )
 }
 
-export default Post
+PortfolioPage.getInitialProps = ({ query }) => {
+  const activeProject = context(`./${query.slug}-details.js`)
+  return { activeProject }
+}
+
+export default PortfolioPage

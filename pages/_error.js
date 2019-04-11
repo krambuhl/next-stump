@@ -1,15 +1,13 @@
 import React from 'react'
 import { ErrorPage } from 'Components'
 
-export default class Error extends React.Component {
-  static getInitialProps({ res, err }) {
-    const statusCode = res ? res.statusCode : err ? err.statusCode : null;
-    return { statusCode }
-  }
+const ErrorComponent = ({ statusCode }) => (
+  <ErrorPage statusCode={statusCode} />
+)
 
-  render() {
-    return (
-      <ErrorPage statusCode={this.props.statusCode} />
-    )
-  }
+ErrorComponent.getInitialProps = ({ res, err }) => {
+  const statusCode = res ? res.statusCode : err ? err.statusCode : null;
+  return { statusCode }
 }
+
+export default ErrorComponent

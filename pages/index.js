@@ -7,25 +7,21 @@ import {
   Portfolio
 } from 'Components'
 
-class Post extends React.Component {
-  static async getInitialProps ({ query }) {
-    const { thumbnails: portfolioList } = require('../content/portfolio-dist/thumbnails')
-    return { query, portfolioList }
-  }
+const IndexPage = ({ portfolioList }) => (
+  <PageLayout dark={false}>
+    <Head>
+      <title>Stumptown Bear</title>
+    </Head>
 
-  render () {
-    return (
-      <PageLayout dark={false}>
-        <Head>
-          <title>Stumptown Bear</title>
-        </Head>
+    <Biography />
+    <Portfolio portfolioList={portfolioList} />
+    <Contact />
+  </PageLayout>
+)
 
-        <Biography />
-        <Portfolio portfolioList={this.props.portfolioList} />
-        <Contact />
-      </PageLayout>
-    )
-  }
+IndexPage.getInitialProps = ({ query }) => {
+  const { thumbnails: portfolioList } = require('../content/portfolio-dist/thumbnails')
+  return { query, portfolioList }
 }
 
-export default Post
+export default IndexPage

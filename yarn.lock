@@ -9206,7 +9206,7 @@ react-docgen@^3.0.0:
     node-dir "^0.1.10"
     recast "^0.16.0"
 
-react-dom@^16.7.0, react-dom@^16.8.1:
+react-dom@^16.8.0, react-dom@^16.8.1:
   version "16.8.6"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.8.6.tgz#71d6303f631e8b0097f56165ef608f051ff6e10f"
   dependencies:
@@ -9261,6 +9261,11 @@ react-helmet-async@^0.2.0:
     prop-types "^15.6.1"
     react-fast-compare "^2.0.2"
     shallowequal "^1.0.2"
+
+react-hooks-fetch@^0.9.0:
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/react-hooks-fetch/-/react-hooks-fetch-0.9.0.tgz#53288f2107abfe68592588fe40ef926445f1fd1a"
+  integrity sha512-FZlsZBGzrNxxJ20+nArGxvJCdptVoKkVYIl+vAipwPF+1qA3rel8vfneP/aym1jdLaQ/5RQBJa2UNVN+bMB8OQ==
 
 react-hotkeys@2.0.0-pre4:
   version "2.0.0-pre4"
@@ -9358,7 +9363,7 @@ react-textarea-autosize@^7.0.4:
     "@babel/runtime" "^7.1.2"
     prop-types "^15.6.0"
 
-react@^16.0.0, react@^16.7.0, react@^16.8.1:
+react@^16.0.0, react@^16.8.0, react@^16.8.1:
   version "16.8.6"
   resolved "https://registry.yarnpkg.com/react/-/react-16.8.6.tgz#ad6c3a9614fd3a4e9ef51117f54d888da01f2bbe"
   dependencies:

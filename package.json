@@ -25,6 +25,8 @@
   "homepage": "https://github.com/krambuhl/next-stump#readme",
   "devDependencies": {
     "@babel/core": "^7.4.3",
+    "@storybook/addon-a11y": "^5.0.6",
+    "@storybook/addon-viewport": "^5.0.6",
     "@storybook/addons": "^5.0.6",
     "@storybook/react": "^5.0.6",
     "@zeit/next-css": "^1.0.1",
@@ -50,16 +52,15 @@
     "webpack-cli": "^3.2.3"
   },
   "dependencies": {
-    "@storybook/addon-a11y": "^5.0.6",
-    "@storybook/addon-viewport": "^5.0.6",
     "classnames": "^2.2.6",
     "cors": "^2.8.5",
     "express": "^4.16.4",
     "helmet": "^3.16.0",
     "mailgun-js": "^0.22.0",
     "nprogress": "^0.2.0",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
+    "react-hooks-fetch": "^0.9.0",
     "react-svg-spinner": "^1.0.4",
     "reset-css": "^4.0.1",
     "unfetch": "^4.1.0"
