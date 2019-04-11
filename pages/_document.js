@@ -37,7 +37,7 @@ export default class MyDocument extends Document {
 
           { /* Fonts */ }
           <link rel="preconnect" href="https://use.typekit.net" />
-          <link rel="preload" as="style" rel="stylesheet" href="https://use.typekit.net/ccx0qyi.css" crossorigin />
+          <link rel="preload" as="style" rel="stylesheet" href="https://use.typekit.net/ccx0qyi.css" crossOrigin="" />
         </Head>
 
         <body>
