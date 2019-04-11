@@ -4,13 +4,14 @@
   "description": "",
   "main": "next.config.js",
   "scripts": {
+    "start": "NODE_ENV=production next",
     "dev": "next dev",
+    "dev:styleguide": "start-storybook -s ./ -p 3001",
     "build": "next build",
     "build:content": "rm -rf static/portfolio && rm -rf content/portfolio-dist && webpack --config ./webpack-portfolio.config.js",
-    "start": "NODE_ENV=production next",
-    "storybook": "start-storybook -s ./ -p 3001",
-    "build:storybook": "build-storybook -o styleguide",
-    "deploy": "npm run build:storybook && now"
+    "build:storybook": "build-storybook -o styleguide && cp ./.next/static/css/styles.chunk.css styleguide",
+    "deploy": "npm run build:storybook && now",
+    "deploy:prod": "npm run build:storybook && now --target production"
   },
   "repository": {
     "type": "git",
