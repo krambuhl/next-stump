@@ -15,6 +15,7 @@
   ],
   "routes": [
     { "src": "/send-email", "dest": "send-email.js" },
+    { "src": "/portfolio", "dest": "/#portfolio" },
     { "src": "/portfolio/(?<slug>[^/]+)$", "dest": "/portfolio?slug=$slug" },
     {
       "src": "^/service-worker.js$",

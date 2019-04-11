@@ -33,8 +33,12 @@ const PortfolioPage = ({ activeProject }) => {
 }
 
 PortfolioPage.getInitialProps = ({ query }) => {
-  const activeProject = context(`./${query.slug}-details.js`)
-  return { activeProject }
+  if (query.slug) {
+    const activeProject = context(`./${query.slug}-details.js`)
+    return { activeProject }
+  }
+
+  return { }
 }
 
 export default PortfolioPage

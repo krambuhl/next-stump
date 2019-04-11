@@ -2,7 +2,9 @@
 
 .root {
   font-size: 0.75em;
+  padding-top: calc(var(--padding) * 2);
   padding-bottom: calc(var(--padding) * 2);
+  border-top: var(--section-border) solid var(--color-tan-dark);
   color: var(--color-beige-dark);
 
   svg {
@@ -10,8 +12,12 @@
   }
 
   a {
+    color: var(--color-beige-dark);
+
     &:hover,
     &:focus {
+      color: var(--color-black);
+
       svg {
         fill: var(--color-black);
       }
@@ -25,6 +31,7 @@
 
 .dark {
   color: var(--color-tan);
+  border-top: var(--section-border) solid var(--color-dark);
 
   svg {
     fill: var(--color-tan);
@@ -34,9 +41,37 @@
     &:hover,
     &:focus {
       svg {
-        fill: var(--color-teal);
+        fill: var(--color-beige);
       }
     }
+  }
+}
+
+.error {
+  border-top: none;
+
+  a {
+    &:hover,
+    &:focus {
+      color: var(--color-beige);
+
+    }
+  }
+}
+
+.notes {
+  font-size: 0.9em;
+  line-height: 1.4em;
+  margin-bottom: 0.4em;
+
+  @media (--small) {
+    font-size: 0.8em;
+    margin-bottom: 0.5em;
+  }
+
+  @media (--medium) {
+    font-size: 0.7em;
+    margin-bottom: 0.6em;
   }
 }
 

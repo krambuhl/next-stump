@@ -1,7 +1,8 @@
 :root {
   /* Neutral */
   --color-black: #000;
-  --color-black-transparent: #000000dd;
+  --color-black-transparent: #00000033;
+  --color-black-semi-transparent: #000000dd;
   --color-dark: #111;
   --color-white: #fff;
   --color-tan: #e8e1d1;
