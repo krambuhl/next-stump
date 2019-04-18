@@ -38,10 +38,14 @@
   }
 
   a {
+    color: var(--color-tan);
+
     &:hover,
     &:focus {
+      color: var(--color-teal);
+
       svg {
-        fill: var(--color-beige);
+        fill: var(--color-teal);
       }
     }
   }

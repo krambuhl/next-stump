@@ -1,6 +1,6 @@
 .root {
   font-weight: 900;
-  line-height: 1.4em;
+  line-height: 1.2em;
 }
 
 .level__h1 {
@@ -19,6 +19,8 @@
   line-height: 1.2em;
 }
 
-.level__h4 { font-size: 1.7em; }
+.level__h4 {
+  font-size: 1.7em;
+}
 .level__h5 { font-size: 1.4em; }
 .level__h6 { font-size: 1.2em; }

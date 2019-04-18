@@ -17,7 +17,7 @@
     "type": "git",
     "url": "git+https://github.com/krambuhl/next-stump.git"
   },
-  "author": "",
+  "author": "Evan Krambuhl <thekrambuhl@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/krambuhl/next-stump/issues"
@@ -57,11 +57,13 @@
     "express": "^4.16.4",
     "helmet": "^3.16.0",
     "mailgun-js": "^0.22.0",
+    "next-page-transitions": "^1.0.0-beta.2",
     "nprogress": "^0.2.0",
     "react": "^16.8.0",
     "react-dom": "^16.8.0",
     "react-hooks-fetch": "^0.9.0",
     "react-svg-spinner": "^1.0.4",
+    "react-transition-group": "^4.0.0",
     "reset-css": "^4.0.1",
     "unfetch": "^4.1.0"
   }

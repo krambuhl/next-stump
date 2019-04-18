@@ -11,13 +11,13 @@ import {
 
 const context = require.context('../content/portfolio-dist', false, /\-details\.js/)
 
-const PortfolioPage = ({ activeProject }) => {
+const PortfolioPage = ({ activeProject, currentRoute }) => {
   if (!activeProject) {
     return <ErrorPage statusCode={404} />
   }
 
   return (
-    <PageLayout dark>
+    <PageLayout dark currentRoute={currentRoute}>
       <Head>
         <title>{activeProject.title} - Stumptown Bear</title>
       </Head>

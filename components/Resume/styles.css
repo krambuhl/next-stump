@@ -1,0 +1,93 @@
+@import "../../styles/variables/breakpoints.css";
+
+.root {
+  max-width: 960px;
+  font-size: 0.8em;
+  line-height: 1.5em;
+
+  :global(p) {
+    max-width: 100%;
+  }
+}
+
+.wrapper {
+  text-align: left;
+
+  :global(p) {
+    margin-left: 0;
+  }
+}
+
+.contact {
+  font-size: 0.8em;
+  list-style: square outside;
+  padding-left: 1em;
+}
+
+.work {
+  margin-top: 1.25em;
+  margin-bottom: 0.75em;
+}
+
+.workItem {
+  & + .workItem {
+    border-top: 2px solid var(--color-tan-dark);
+    margin-top: 1.5em;
+    padding-top: 1.5em;
+  }
+}
+
+.contract {
+  position: relative;
+  top: -0.07em;
+  font-size: 0.8em;
+  line-height: 1.4em;
+  margin-left: 1em;
+  text-transform: uppercase;
+  border: 1px solid var(--color-beige-dark);
+  color: var(--color-beige-dark);
+  padding: 0.275em 0.5em 0.15em;
+  border-radius: 2px;
+}
+
+.date {
+  font-size: 0.8em;
+  line-height: 1.4em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--color-beige-dark);
+
+  @media (--medium) {
+    font-size: 0.6em;
+  }
+}
+
+.details {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  list-style: square outside;
+  padding-left: 1em;
+
+  :global(li + li) {
+    margin-top: 0.25em;
+  }
+}
+
+.linkList {
+  font-size: 0.7em;
+  line-height: 1.8em;
+
+  :global(em) {
+    margin-right: 0.25em;
+  }
+
+  :global(span + span::before) {
+    content: ', ';
+  }
+}
+
+.technologies {
+  margin-top: 0.5em;
+}

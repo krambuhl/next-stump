@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import classnames from 'classnames'
+import { PageTransition } from 'next-page-transitions'
 import ThemeContext from 'Context/ThemeContext'
 import { GlobalFooter, GlobalHeader } from 'Components'
 import styles from './styles.css'
@@ -7,6 +8,7 @@ import styles from './styles.css'
 const PageLayout = ({
   error: themeError,
   dark: themeDark,
+  currentRoute,
   children
 }) => {
   useEffect(() => {
@@ -30,9 +32,18 @@ const PageLayout = ({
         <div className={styles.container}>
           <GlobalHeader className={styles.header} />
 
-          <div id='content' className={styles.main}>
-            {children}
-          </div>
+          <PageTransition
+            timeout={300}
+            classNames="page-transition"
+          >
+            <div
+              key={currentRoute}
+              id='content'
+              className={styles.main}
+            >
+              {children}
+            </div>
+          </PageTransition>
 
           <GlobalFooter className={styles.footer} />
         </div>

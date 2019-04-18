@@ -26,6 +26,7 @@ const GlobalHeader = ({
 
         <div className={styles.nav}>
           <ul className={styles.navList}>
+            <li><Link href='/resume'><a className={classnames(styles.navLink, styles.navLink__resume)}>Resume</a></Link></li>
             <li><Link href='/#portfolio'><a className={classnames(styles.navLink, styles.navLink__portfolio)}>Portfolio</a></Link></li>
             <li><Link href='/#hello'><a className={classnames(styles.navLink, styles.navLink__contact)}>Say Hello</a></Link></li>
           </ul>

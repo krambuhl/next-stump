@@ -2,7 +2,6 @@ import React from 'react'
 import { Heading, Strata, Wrapper } from 'Components'
 import styles from './styles.css'
 
-
 const Biography = () => (
   <Strata id='biography' className={styles.root}>
     <Wrapper className='u-rhythm--lg'>

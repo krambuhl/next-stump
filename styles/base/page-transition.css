@@ -1,0 +1,25 @@
+:global {
+  .page-transition-enter {
+    opacity: 0;
+    transform: translate3d(0, 2em, 0);
+  }
+
+  .page-transition-enter-active {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    transition: ease 300ms;
+    transition-property: opacity, transform;
+  }
+
+  .page-transition-exit {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+
+  .page-transition-exit-active {
+    opacity: 0;
+    transform: translate3d(0, 2em, 0);
+    transition: ease 300ms;
+    transition-property: opacity, transform;
+  }
+}

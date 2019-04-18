@@ -7,13 +7,18 @@
   overflow: hidden;
   box-shadow: #0002 0 1px 5px;
   background-color: var(--color-beige);
+  transition: transform 0.7s ease;
 
   &:hover,
   &:active,
   &:focus {
+    transform: scale(1.05);
+    transition-duration: 0.3s;
+
     .header {
       opacity: 1;
-      transition: opacity 0.3s ease;
+      transition: 0.3s ease;
+      transition-property: opacity, transform;
     }
   }
 

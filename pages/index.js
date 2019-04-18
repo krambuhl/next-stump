@@ -7,8 +7,8 @@ import {
   Portfolio
 } from 'Components'
 
-const IndexPage = ({ portfolioList }) => (
-  <PageLayout dark={false}>
+const IndexPage = ({ portfolioList, currentRoute }) => (
+  <PageLayout dark={false} currentRoute={currentRoute}>
     <Head>
       <title>Stumptown Bear</title>
     </Head>

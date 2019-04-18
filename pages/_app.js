@@ -12,18 +12,18 @@ Router.events.on('routeChangeComplete', () => NProgress.done())
 Router.events.on('routeChangeError', () => NProgress.done())
 
 class AppWrapper extends App {
-  static async getInitialProps ({ Component, ctx }) {
+  static async getInitialProps ({ Component, router, ctx }) {
     let pageProps = {}
 
     if (Component.getInitialProps) {
       pageProps = await Component.getInitialProps(ctx)
     }
 
-    return { pageProps }
+    return { pageProps, router }
   }
 
   render () {
-    const { Component, pageProps } = this.props
+    const { Component, pageProps, router } = this.props
 
     return (
       <Container>
@@ -31,7 +31,10 @@ class AppWrapper extends App {
           <title>Stumptown Bear</title>
         </Head>
 
-        <Component {...pageProps} />
+        <Component
+          {...pageProps}
+          currentRoute={router.asPath}
+        />
       </Container>
     )
   }
