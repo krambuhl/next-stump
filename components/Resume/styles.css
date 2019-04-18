@@ -37,6 +37,15 @@
   }
 }
 
+.website {
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+}
+
 .contract {
   position: relative;
   top: -0.07em;

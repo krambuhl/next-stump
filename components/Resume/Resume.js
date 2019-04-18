@@ -32,7 +32,12 @@ const Resume = ({ name, lead, contactInfo, experience }) => (
                   <span className={styles.contract}>Contract</span>
                 }
               </p>
-              <Heading tagName="h3" level='h4'>{work.company} &ndash; {work.title}</Heading>
+              <Heading tagName="h3" level='h4'>
+                { work.website
+                  ? <a className={styles.website} href={work.website} target='_blank'>{work.company}</a>
+                  : <span>work.company</span>
+                } &ndash; {work.title}
+              </Heading>
 
               { work.details &&
                 <ul className={styles.details}>

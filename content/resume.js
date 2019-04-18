@@ -10,6 +10,7 @@ module.exports = {
 	experience: [{
     slug: "turn",
     company: "Turn",
+    website: "https://turnwith.us",
     title: "Developer",
     start: "February 2018",
     end: "present",
@@ -31,6 +32,7 @@ module.exports = {
   }, {
     slug: "blue-jack-studio",
     company: "Blue Jack Studio",
+    website: 'https://bluejackstudio.com/',
     title: "Developer",
     start: "January 2018",
     end: "present",
