@@ -5,6 +5,19 @@ import ThemeContext from 'Context/ThemeContext'
 import { GlobalFooter, GlobalHeader } from 'Components'
 import styles from './styles.css'
 
+
+const DivWrapper = ({
+  pageTransitionReadyToEnter,
+  children,
+  ...attrs
+}) => (
+  <div
+    {...attrs}
+  >
+    {children}
+  </div>
+)
+
 const PageLayout = ({
   error: themeError,
   dark: themeDark,
@@ -36,13 +49,13 @@ const PageLayout = ({
             timeout={300}
             classNames="page-transition"
           >
-            <div
+            <DivWrapper
               key={currentRoute}
               id='content'
               className={styles.main}
             >
               {children}
-            </div>
+            </DivWrapper>
           </PageTransition>
 
           <GlobalFooter className={styles.footer} />
