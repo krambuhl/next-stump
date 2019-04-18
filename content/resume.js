@@ -104,7 +104,7 @@ module.exports = {
 	}, {
     slug: "clearesult",
     start: "June 2015",
-    end: "Feb 2016",
+    end: "February 2016",
     company: "CLEAResult",
     title: "Senior Front-end Developer",
     website: "https://www.clearesult.com/",
@@ -207,7 +207,7 @@ module.exports = {
   }, {
     slug: "the-brigade",
     start: "February 2013",
-    end: "February 2013",
+    end: false,
     company: "The Brigade",
     website: "https://thisisthebrigade.com/",
     title: "Front End Developer",

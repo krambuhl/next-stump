@@ -27,11 +27,11 @@ const Resume = ({ name, lead, contactInfo, experience }) => (
           experience.map(work => (
             <div key={work.slug} id={work.slug} className={classnames(styles.workItem)}>
               <p className={styles.date}>
-                {work.start} &ndash; {work.end}
-                { work.contract &&
-                  <span className={styles.contract}>Contract</span>
-                }
+                <span>{work.start}</span>
+                {work.end && <span> &ndash; {work.end}</span>}
+                { work.contract && <span className={styles.contract}>Contract</span>}
               </p>
+
               <Heading tagName="h3" level='h4'>
                 { work.website
                   ? <a className={styles.website} href={work.website} target='_blank'>{work.company}</a>
