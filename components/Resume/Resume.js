@@ -35,7 +35,7 @@ const Resume = ({ name, lead, contactInfo, experience }) => (
               <Heading tagName="h3" level='h4'>
                 { work.website
                   ? <a className={styles.website} href={work.website} target='_blank'>{work.company}</a>
-                  : <span>work.company</span>
+                  : <span>{work.company}</span>
                 } &ndash; {work.title}
               </Heading>
 
