@@ -7,13 +7,12 @@
   color: var(--color-teal) !important;
   display: inline-block;
   font-family: 'museo-sans-rounded', 'Arial Rounded MT Bold', Helvetica;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   line-height: 1.75em;
   text-align: center;
   text-decoration: none;
   padding: 0em 1em;
   cursor: pointer;
-  min-width: 180px;
 
   &:hover,
   &:focus {
@@ -27,8 +26,14 @@
     outline-offset: 2px;
   }
 
+  @media (--small) {
+    font-size: 1.4rem;
+  }
+
   @media (--medium) {
     border-width: 3px;
+    font-size: 1.6rem;
+    min-width: 180px;
   }
 }
 
