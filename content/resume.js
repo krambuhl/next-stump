@@ -1,13 +1,15 @@
+/* eslint-disable quotes */
+
 module.exports = {
-	name: "Evan Krambuhl",
-	lead: "Software engineer focused on Javascript and User Experience.  Interested in  application architecture, build tooling, and design systems.",
-	contactInfo: [
-		{ contents: "evan.krambuhl@gmail.com", href: "mailto:evan.krambuhl@gmail.com" },
-		{ contents: "Portfolio", href: "http://stumptownbear.com/" },
-		{ contents: "Github", href: "https://github.com/krambuhl" },
-		{ contents: "NPM", href: "https://www.npmjs.com/~krambuhl" },
-	],
-	experience: [{
+  name: "Evan Krambuhl",
+  lead: "Software engineer focused on Javascript and User Experience.  Interested in  application architecture, build tooling, and design systems.",
+  contactInfo: [
+    { contents: "evan.krambuhl@gmail.com", href: "mailto:evan.krambuhl@gmail.com" },
+    { contents: "Portfolio", href: "http://stumptownbear.com/" },
+    { contents: "Github", href: "https://github.com/krambuhl" },
+    { contents: "NPM", href: "https://www.npmjs.com/~krambuhl" },
+  ],
+  experience: [{
     slug: "turn",
     company: "Turn",
     website: "https://turnwith.us",
@@ -27,8 +29,8 @@ module.exports = {
       { contents: "Psych Select", href: "https://www.psychselect.com" }
     ],
     integrations: [
-      { contents: "ColdFusion", href: "https://www.adobe.com/products/coldfusion-family.html" },
-    ],
+      { contents: "ColdFusion", href: "https://www.adobe.com/products/coldfusion-family.html" }
+    ]
   }, {
     slug: "blue-jack-studio",
     company: "Blue Jack Studio",
@@ -44,7 +46,7 @@ module.exports = {
     technologies: [
       { contents: "Next.js", href: "https://nextjs.org/" },
       { contents: "GraphQL", href: "https://graphql.org/" }
-    ],
+    ]
   }, {
     slug: "cloud-four",
     start: "October 2017",
@@ -64,11 +66,11 @@ module.exports = {
       { contents: "Vue.js", href: "https://vuejs.org/" },
       { contents: "Vuex", href: "https://vuex.vuejs.org/" },
       { contents: "Nuxt", href: "https://nuxtjs.org" },
-      { contents: "Drizzle", href: "https://github.com/cloudfour/drizzle" },
+      { contents: "Drizzle", href: "https://github.com/cloudfour/drizzle" }
     ],
     applications: [
       { contents: "VS Code", href: "https://code.visualstudio.com/" }
-    ],
+    ]
   }, {
     slug: "connective-dx",
     start: "March 2016",
@@ -91,22 +93,22 @@ module.exports = {
       { contents: "React", href: "https://facebook.github.io/react/" },
       { contents: "Webpack", href: "https://webpack.js.org/" },
       { contents: "Babel", href: "https://babeljs.io/" },
-      { contents: "PostCSS", href: "http://postcss.org/" },
+      { contents: "PostCSS", href: "http://postcss.org/" }
     ],
     integrations: [
       { contents: "Adobe Experience Manager", href: "https://docs.adobe.com/docs/en/aem/6-2.html" },
-      { contents: "Sitecore", href: "http://www.sitecore.net/" },
+      { contents: "Sitecore", href: "http://www.sitecore.net/" }
     ],
     applications: [
       { contents: "Zeplin", href: "https://zeplin.io/" },
-      { contents: "Invision", href: "https://www.invisionapp.com/" },
-    ],
-	}, {
+      { contents: "Invision", href: "https://www.invisionapp.com/" }
+    ]
+  }, {
     slug: "clearesult",
     start: "June 2015",
     end: "February 2016",
     company: "CLEAResult",
-    title: "Senior Front-end Developer",
+    title: "Senior Front End Developer",
     website: "https://www.clearesult.com/",
     contract: true,
     details: [
@@ -115,10 +117,10 @@ module.exports = {
       "Setup Apache SOLR servers for Single Page application search"
     ],
     clients: [
-      { contents: "HVAC Optimization", href: "https://hvacoptimization.com/champions" },
+      { contents: "HVAC Optimization", href: "https://hvacoptimization.com/champions" }
     ],
     technologies: [
-      { contents: "Metalsmith", href: "http://www.metalsmith.io/" },
+      { contents: "Metalsmith", href: "http://www.metalsmith.io/" }
     ],
     integrations: [
       { contents: "Apache SOLR", href: "http://lucene.apache.org/solr/" }
@@ -139,14 +141,14 @@ module.exports = {
     ],
     technologies: [
       { contents: "Javascript ES6" },
-      { contents: "Babel", href: "https://babeljs.io/" },
+      { contents: "Babel", href: "https://babeljs.io/" }
     ],
     integrations: [
-      { contents: "Trimet Web Services", href: "https://developer.trimet.org/ws_docs/" },
+      { contents: "Trimet Web Services", href: "https://developer.trimet.org/ws_docs/" }
     ],
     applications: [
-      { contents: "Atom", href: "https://atom.io/" },
-    ],
+      { contents: "Atom", href: "https://atom.io/" }
+    ]
   }, {
     slug: "john-mcneil-studio",
     start: "September 2013",
@@ -163,7 +165,7 @@ module.exports = {
     clients: [
       { contents: "CA Technologies", href: "https://www.ca.com/" },
       { contents: "Juniper Networks", href: "http://www.juniper.net/" },
-      { contents: "Polycom", href: "http://www.polycom.com/" },
+      { contents: "Polycom", href: "http://www.polycom.com/" }
     ],
     technologies: [
       { contents: "Gulp", href: "https://gulpjs.com/" },
@@ -172,15 +174,16 @@ module.exports = {
       { contents: "Browserify", href: "http://browserify.org/" },
       { contents: "Handlebars", href: "http://handlebarsjs.com/" },
       { contents: "Sass", href: "http://sass-lang.com/" },
-      { contents: "PhoneGap", href: "https://phonegap.com/" },
+      { contents: "PhoneGap", href: "https://phonegap.com/" }
     ],
     integrations: [
       { contents: "Parse.js", href: "http://parseplatform.org/" }
     ],
     applications: [
-      { contents: "Sublime Text 3", href: "https://www.sublimetext.com/3" },
+      { contents: "Sublime Text 3", href: "https://www.sublimetext.com/3" }
     ]
   }, {
+    hidden: true,
     slug: "uvlabs",
     start: "November 2013",
     end: "January 2014",
@@ -202,9 +205,10 @@ module.exports = {
     ],
     integrations: [
       { contents: "ERB Templates" },
-      { contents: "Clojure", href: "https://clojure.org/" },
-    ],
+      { contents: "Clojure", href: "https://clojure.org/" }
+    ]
   }, {
+    hidden: true,
     slug: "the-brigade",
     start: "February 2013",
     end: false,
@@ -212,9 +216,12 @@ module.exports = {
     website: "https://thisisthebrigade.com/",
     title: "Front End Developer",
     contract: true,
-    integrations: [
-      { contents: "Spotify", href: "https://developer.spotify.com/web-api/" },
+    details: [
+      "Developed simple data visualization for a Spotify microsite"
     ],
+    integrations: [
+      { contents: "Spotify", href: "https://developer.spotify.com/web-api/" }
+    ]
   }, {
     slug: "webtrends",
     start: "May 2012",
@@ -231,29 +238,29 @@ module.exports = {
       { contents: "Addidas", href: "https://www.adidas-group.com/en/" },
       { contents: "Microsoft", href: "https://www.microsoft.com/" },
       { contents: "State Farm", href: "https://www.statefarm.com/" },
-      { contents: "Red Bull", href: "https://www.redbull.com/us-en/" },
+      { contents: "Red Bull", href: "https://www.redbull.com/us-en/" }
     ],
     technologies: [
       { contents: "jQuery", href: "https://jquery.com/" },
       { contents: "Underscore", href: "http://underscorejs.org/" },
       { contents: "D3", href: "https://d3js.org/" },
-      { contents: "Raphael", href: "http://dmitrybaranovskiy.github.io/raphael/" },
+      { contents: "Raphael", href: "http://dmitrybaranovskiy.github.io/raphael/" }
     ],
     integrations: [
       { contents: "Ruby", href: "https://www.ruby-lang.org" },
-      { contents: "Ruby on Rails", href: "http://rubyonrails.org/" },
+      { contents: "Ruby on Rails", href: "http://rubyonrails.org/" }
     ],
     applications: [
       { contents: "Coda", href: "https://panic.com/coda/" },
       { contents: "Transmit", href: "https://panic.com/transmit/" },
-      { contents: "Adobe InDesign", href: "http://www.adobe.com/products/indesign.html" },
-    ],
+      { contents: "Adobe InDesign", href: "http://www.adobe.com/products/indesign.html" }
+    ]
   }, {
     slug: "carbon",
     start: "October 2012",
     end: "January 2013",
     company: "Carbon",
-    title: "UX Designer",
+    title: "Product Designer",
     contract: true
   }, {
     slug: "citizen",
@@ -261,7 +268,7 @@ module.exports = {
     end: "December 2012",
     company: "Citizen",
     website: "https://pluscitizen.com/",
-    title: "UX Designer",
+    title: "Wireframe Designer",
     contract: true
   }, {
     slug: "natalie-renee-music",
@@ -273,7 +280,7 @@ module.exports = {
     contract: true,
     technologies: [
       { contents: "Flash/AS2" }
-    ],
+    ]
   }, {
     slug: "southridge-high-school",
     start: "July 2008",
@@ -287,11 +294,11 @@ module.exports = {
       { contents: "CSS" },
       { contents: "Javascript" },
       { contents: "PHP", href: "http://php.net/" },
-      { contents: "MySQL", href: "https://www.mysql.com/https://www.mysql.com/" },
+      { contents: "MySQL", href: "https://www.mysql.com/https://www.mysql.com/" }
     ],
     applications: [
       { contents: "Adobe Illustrator", href: "http://www.adobe.com/products/illustrator.html" },
-      { contents: "Adobe Photoshop", href: "http://www.adobe.com/products/photoshop.html" },
-    ],
+      { contents: "Adobe Photoshop", href: "http://www.adobe.com/products/photoshop.html" }
+    ]
   }]
 }
